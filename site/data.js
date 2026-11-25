@@ -145,7 +145,7 @@ window.SCHEMES = [
   summary:"17 EI-backed gateways in the technological universities that solve near-market problems for industry. The Engineering, Materials & Design cluster includes CREST (coatings, TU Dublin), SEAM (materials, SETU), PEM (precision engineering, ATU Sligo) and APT (polymers).",
   req:["Any company; best value for SMEs"],
   apply:"Contact the gateway directly",
-  tip:"CREST recently received capital funding for a composite manufacturing and prototyping suite at TU Dublin.",
+  tip:"Capital calls suit shared equipment such as a manufacturing or prototyping suite: line up co-funding and a usage plan early.",
   ind:["mat","mfg","health","energy","aero"], mil:"civil", leads:["voucher","ipp"],
   src:"https://www.enterprise-ireland.com/en/news/minister-burke-announces-over-12-million-capital-investment" },
 { id:"techcentres", name:"Technology Centres (IMR, CeADAR, PMTC, MCCI…)", group:"EI", who:"both", stage:6, type:"Industry-led research membership",

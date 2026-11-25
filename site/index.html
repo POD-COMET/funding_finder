@@ -790,7 +790,7 @@ function renderPicks(R){const el=document.getElementById('picks');
 // events rather than funding: never suggested
 const EVENT_RE=/\b(hackathon|bootcamp|webinar|info ?day|information day|conference|workshop|summit|festival|matchmaking|brokerage event|networking event|training course|summer school|forge)\b/i;
 // --- live tenders (site/live.json, refreshed every few hours by GitHub Actions; absent offline)
-let LIVEDATA=null;
+let LIVEDATA=window.LIVE_SNAPSHOT||null;
 function ago(iso){const h=Math.round((Date.now()-Date.parse(iso))/36e5);return h<1?'under an hour ago':h<48?`${h} hour${h===1?'':'s'} ago`:`${Math.round(h/24)} days ago`;}
 const stem=w=>w.slice(0,Math.max(4,Math.min(6,w.length-1)));
 function liveMatches(text){if(!LIVEDATA)return [];
