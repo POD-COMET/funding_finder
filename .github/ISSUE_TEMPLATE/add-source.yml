@@ -1,0 +1,19 @@
+name: Add a funding or tender source
+description: Ask for a new funder, tender portal or challenge site to be covered for everyone
+title: "Add source: "
+labels: [source]
+body:
+  - type: input
+    id: name
+    attributes: { label: Name, placeholder: "e.g. Irish Research Council" }
+    validations: { required: true }
+  - type: input
+    id: url
+    attributes: { label: Website, placeholder: "https://" }
+    validations: { required: true }
+  - type: dropdown
+    id: type
+    attributes: { label: Type, options: [Funding, Tenders, Funding and tenders, Challenge or competition] }
+  - type: textarea
+    id: why
+    attributes: { label: Why it's useful (optional) }

@@ -1,0 +1,73 @@
+name: Refresh tenders and publish site
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 */6 * * *"   # every 6 hours (live portals + daily-or-better page checks)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: site
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install browser
+        env:
+          ONNXRUNTIME_NODE_INSTALL_CUDA: skip
+        run: npm install --no-save playwright@1 @huggingface/transformers@3 && npx playwright install --with-deps chromium
+      - name: Fetch live tenders and calls
+        run: node scripts/refresh.mjs
+        continue-on-error: true
+      - name: Build meaning index
+        run: node scripts/embed.mjs
+        continue-on-error: true
+      - name: Save updated data
+        run: |
+          if [ -n "$(git status --porcelain site/live.json site/vectors.json)" ]; then
+            git config user.name "funding-finder-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add site/live.json site/vectors.json
+            git commit -m "Refresh live tenders [skip ci]"
+            git pull --rebase origin main && git push
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+  smoke:
+    needs: deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --no-save playwright@1 && npx playwright install --with-deps chromium
+      - name: Check the live site
+        env:
+          SITE_URL: https://pod-comet.github.io/funding_finder/
+        run: node scripts/smoke.mjs
