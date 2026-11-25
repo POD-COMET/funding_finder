@@ -190,7 +190,14 @@ import crypto from "node:crypto";
 async function watchPages(browser) {
   const ctx = { window: {} }; vm.createContext(ctx);
   vm.runInContext(await fs.readFile(new URL("../site/data.js", import.meta.url), "utf8"), ctx);
-  const S = ctx.window.SCHEMES; const old = prev.watch || {}; const out = {};
+  for (const f of ["tenders.js", "partners.js"]) vm.runInContext((await fs.readFile(new URL("../site/" + f, import.meta.url), "utf8")).replace(/^const (\w+)\s*=/gm, "window.$1="), ctx);
+  // every hand-curated list: funding routes, tracked tender channels, partner websites
+  const S = [
+    ...ctx.window.SCHEMES.map(s => ({ id: s.id, src: s.src })),
+    ...(ctx.window.TENDERS || []).filter(t => t.url).map(t => ({ id: "t:" + t.id, src: t.url })),
+    ...(ctx.window.PARTNERS || []).filter(p => p.url).map(p => ({ id: "p:" + p.id, src: p.url, light: true })),
+  ];
+  const old = prev.watch || {}; const out = {};
   const page = await browser.newPage();
   for (const s of S) {
     const o = { checked: now, ok: false };
@@ -215,10 +222,11 @@ async function watchPages(browser) {
         o.dates = [...new Set((txt.match(/(?:deadline|closing date|closes|close on|submission)[^.]{0,60}?\d{1,2}(?:st|nd|rd|th)?\s+[A-Za-z]{3,9}\.?\s+\d{4}/gi) || []).map(x => wordDate(x)).filter(Boolean))].slice(0, 4);
       }
     } catch (e) { o.error = e.message.slice(0, 120); }
+    o.fails = o.ok ? 0 : ((old[s.id] && old[s.id].fails) || 0) + 1;
     out[s.id] = o;
   }
   await page.close();
-  console.log(`Page watch: ${Object.values(out).filter(x => x.ok).length}/${S.length} pages read, ${Object.values(out).filter(x => x.changed === now.slice(0, 10)).length} changed today`);
+  console.log(`Page watch: ${Object.values(out).filter(x => x.ok).length}/${S.length} pages read (${S.filter(s => s.id.startsWith("t:")).length} tender channels, ${S.filter(s => s.id.startsWith("p:")).length} partner sites), ${Object.values(out).filter(x => x.changed === now.slice(0, 10)).length} changed today`);
   return out;
 }
 
