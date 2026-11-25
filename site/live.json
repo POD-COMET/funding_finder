@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-25T01:22:06.966Z",
+ "generated": "2026-11-25T01:34:20.106Z",
  "sources": {
   "ESA": {
    "ok": true,
-   "checked": "2026-11-25T01:22:06.966Z",
-   "updated": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
+   "updated": "2026-11-25T01:34:20.106Z",
    "count": 171,
    "items": [
     {
@@ -1926,8 +1926,8 @@
   },
   "EU": {
    "ok": true,
-   "checked": "2026-11-25T01:22:06.966Z",
-   "updated": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
+   "updated": "2026-11-25T01:34:20.106Z",
    "count": 1087,
    "items": [
     {
@@ -6112,127 +6112,6 @@
     },
     {
      "source": "EU",
-     "id": "eu-646ec552-a479-41e4-bb52-fd9e4187a3a8-CN",
-     "ref": "646ec552-a479-41e4-bb52-fd9e4187a3a8-CN",
-     "title": "Maintenance Services for Perkin Elmer Scientific Instruments",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/646ec552-a479-41e4-bb52-fd9e4187a3a8-CN",
-     "opens": "2026-11-05",
-     "deadline": "2026-12-17",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-646ec552-a479-41e4-bb52-fd9e4187a3a8-PIN",
-     "ref": "646ec552-a479-41e4-bb52-fd9e4187a3a8-PIN",
-     "title": "Maintenance Services for Perkin Elmer Scientific Instruments",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/646ec552-a479-41e4-bb52-fd9e4187a3a8-PIN",
-     "opens": "2026-10-16",
-     "deadline": null,
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-68bc4298-6356-4ac4-b90a-ebf22e138b47-CN",
-     "ref": "68bc4298-6356-4ac4-b90a-ebf22e138b47-CN",
-     "title": "Facility supporting Interreg NEXT programmes(2021-2027)and preparatory activities for the next MFF programming period on the EU’s ext. eastern and southern borders, in the framework of the ERDF,NDICI and CF for the use of TA. 2026CE160AT059",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/68bc4298-6356-4ac4-b90a-ebf22e138b47-CN",
-     "opens": "2026-10-13",
-     "deadline": "2026-12-04",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-HLTH-2022-DISEASE-03-01",
-     "ref": "HORIZON-HLTH-2022-DISEASE-03-01",
-     "title": "European partnership fostering a European Research Area (ERA) for health research",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2022-DISEASE-03-01",
-     "opens": "2026-10-27",
-     "deadline": "2027-01-14",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-SMP-COSME-2026-EUJAPAN-IBA",
-     "ref": "SMP-COSME-2026-EUJAPAN-IBA",
-     "title": "EU-Japan Centre for Industrial Cooperation",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/SMP-COSME-2026-EUJAPAN-IBA",
-     "opens": "2026-10-30",
-     "deadline": "2027-01-20",
-     "kind": "EU call for proposals",
-     "programme": "43252476"
-    },
-    {
-     "source": "EU",
-     "id": "eu-EuropeAid/187805/ID/ACT/MA",
-     "ref": "EuropeAid/187805/ID/ACT/MA",
-     "title": "Strengthening Bank Al Maghrib capacities in payment systems security, operational resilience and prevention of fraud in payment systems and instruments.",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EuropeAid/187805/ID/ACT/MA",
-     "opens": "2026-11-04",
-     "deadline": "2027-01-20",
-     "kind": "EU call for proposals",
-     "programme": "111111"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL2-2025-03-HERITAGE-01",
-     "ref": "HORIZON-CL2-2025-03-HERITAGE-01",
-     "title": "Co-funded European partnership for Resilient Cultural Heritage",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2025-03-HERITAGE-01",
-     "opens": "2026-11-04",
-     "deadline": "2027-01-11",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-a3e5bd67-5b92-433f-bab5-c9e885e41e29-CN",
-     "ref": "a3e5bd67-5b92-433f-bab5-c9e885e41e29-CN",
-     "title": "European Surveys with Asylum Migrants (EU SAM)",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/a3e5bd67-5b92-433f-bab5-c9e885e41e29-CN",
-     "opens": "2026-10-14",
-     "deadline": "2026-12-10",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-e2e83449-2e4f-4407-9425-8098769ebac1-CN",
-     "ref": "e2e83449-2e4f-4407-9425-8098769ebac1-CN",
-     "title": "Technical Assistance for Priority Human Resources and Government Service Performance",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/e2e83449-2e4f-4407-9425-8098769ebac1-CN",
-     "opens": "2026-11-05",
-     "deadline": "2026-12-07",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-dd11ae50-3178-49cd-8f37-e403a63939ad-CN",
-     "ref": "dd11ae50-3178-49cd-8f37-e403a63939ad-CN",
-     "title": "Services of project management and architecture in the field of information technology",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/dd11ae50-3178-49cd-8f37-e403a63939ad-CN",
-     "opens": "2026-11-05",
-     "deadline": "2026-12-10",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-dd11ae50-3178-49cd-8f37-e403a63939ad-PIN",
-     "ref": "dd11ae50-3178-49cd-8f37-e403a63939ad-PIN",
-     "title": "Services of project management and architecture in the field of information technology",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/dd11ae50-3178-49cd-8f37-e403a63939ad-PIN",
-     "opens": "2026-10-07",
-     "deadline": null,
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
      "id": "eu-99a11ea7-be3e-4f8a-81fc-9c3f36746b16-CN",
      "ref": "99a11ea7-be3e-4f8a-81fc-9c3f36746b16-CN",
      "title": "Fourniture de mobilier pour l'aménagement et l’équipement des espaces de travail et de convivialité de la Commission européenne et autres entités participantes",
@@ -6288,446 +6167,6 @@
     },
     {
      "source": "EU",
-     "id": "eu-a309495c-6501-4078-bc65-f63e71b76237-CN",
-     "ref": "a309495c-6501-4078-bc65-f63e71b76237-CN",
-     "title": "Framework service contract for defence testing and evaluation campaigns and other operational experimentation activities",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/a309495c-6501-4078-bc65-f63e71b76237-CN",
-     "opens": "2026-11-17",
-     "deadline": "2026-12-18",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-40eec3d2-552f-492d-839a-d2ea70e06cc3-PIN",
-     "ref": "40eec3d2-552f-492d-839a-d2ea70e06cc3-PIN",
-     "title": "Framework service contract for operating the \"Hydrological Forecast Centre - Computation\" in support to the Copernicus Emergency Management Service (CEMS) Flood Early Warning Systems",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/40eec3d2-552f-492d-839a-d2ea70e06cc3-PIN",
-     "opens": "2026-10-02",
-     "deadline": null,
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-90840feb-d6c8-4cc8-89e9-0ee7a036b852-PIN",
-     "ref": "90840feb-d6c8-4cc8-89e9-0ee7a036b852-PIN",
-     "title": "Open procedure for the conclusion of a single framework contract on the supply of IT hardware equipment to the benefit of CFSP Bodies and Persons",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/90840feb-d6c8-4cc8-89e9-0ee7a036b852-PIN",
-     "opens": "2026-07-30",
-     "deadline": null,
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-7ae317f6-399b-4a12-9932-1379a79ca3cc-CN",
-     "ref": "7ae317f6-399b-4a12-9932-1379a79ca3cc-CN",
-     "title": "Insurance advisory and brokerage services for EFCA",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/7ae317f6-399b-4a12-9932-1379a79ca3cc-CN",
-     "opens": "2026-11-17",
-     "deadline": "2027-01-13",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-90840feb-d6c8-4cc8-89e9-0ee7a036b852-CN",
-     "ref": "90840feb-d6c8-4cc8-89e9-0ee7a036b852-CN",
-     "title": "Open procedure for the conclusion of a single framework contract on the supply of IT hardware equipment to the benefit of CFSP Bodies and Persons",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/90840feb-d6c8-4cc8-89e9-0ee7a036b852-CN",
-     "opens": "2026-11-17",
-     "deadline": "2027-01-22",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-40eec3d2-552f-492d-839a-d2ea70e06cc3-CN",
-     "ref": "40eec3d2-552f-492d-839a-d2ea70e06cc3-CN",
-     "title": "Framework service contract for operating the \"Hydrological Forecast Centre - Computation\" in support to the Copernicus Emergency Management Service (CEMS) Flood Early Warning Systems",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/40eec3d2-552f-492d-839a-d2ea70e06cc3-CN",
-     "opens": "2026-11-17",
-     "deadline": "2027-01-15",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-096471d2-9c9b-4fa3-8151-6219dfc61db9-CN",
-     "ref": "096471d2-9c9b-4fa3-8151-6219dfc61db9-CN",
-     "title": "Business Continuity and Crisis Communication Services and Devices",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/096471d2-9c9b-4fa3-8151-6219dfc61db9-CN",
-     "opens": "2026-10-16",
-     "deadline": "2026-11-26",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-e2b528ae-4c87-4a57-b9c6-07ab6fcb72e3-CN",
-     "ref": "e2b528ae-4c87-4a57-b9c6-07ab6fcb72e3-CN",
-     "title": "Support to the Ministry of Economy and Environment of Ukraine with approximation of EU's legislation on critical raw materials",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/e2b528ae-4c87-4a57-b9c6-07ab6fcb72e3-CN",
-     "opens": "2026-11-17",
-     "deadline": "2027-01-28",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-5263e8ff-2f4c-4004-9ca4-4c0feb2cdc89-PIN",
-     "ref": "5263e8ff-2f4c-4004-9ca4-4c0feb2cdc89-PIN",
-     "title": "Copernicus Land Monitoring Service - Operation of global bio-geophysical terrestrial variables",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/5263e8ff-2f4c-4004-9ca4-4c0feb2cdc89-PIN",
-     "opens": "2026-08-24",
-     "deadline": null,
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-95cc2a20-92aa-43e9-8178-e1c6fca77d0f-CN",
-     "ref": "95cc2a20-92aa-43e9-8178-e1c6fca77d0f-CN",
-     "title": "Security Guard and Reception/Switchboard services for the EU-House in Ireland",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/95cc2a20-92aa-43e9-8178-e1c6fca77d0f-CN",
-     "opens": "2026-11-18",
-     "deadline": "2026-12-21",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-e096f054-ebe4-4126-ba82-4ee194e1a810-CN",
-     "ref": "e096f054-ebe4-4126-ba82-4ee194e1a810-CN",
-     "title": "Provision of interim staff for the European Labour Authority and the European Commission Representation in Slovakia / Bratislava",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/e096f054-ebe4-4126-ba82-4ee194e1a810-CN",
-     "opens": "2026-11-05",
-     "deadline": null,
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-4b53624d-3bbe-4f35-91d5-cb027a37548b-PIN",
-     "ref": "4b53624d-3bbe-4f35-91d5-cb027a37548b-PIN",
-     "title": "Aufbau und Änderung von Elektroinstallationen an Handschuhkästen, heißen Zellen, Labors und im Gebäude",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/4b53624d-3bbe-4f35-91d5-cb027a37548b-PIN",
-     "opens": "2026-08-14",
-     "deadline": null,
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-d72bfcd3-ca34-455b-853f-0591199dc76a-CN",
-     "ref": "d72bfcd3-ca34-455b-853f-0591199dc76a-CN",
-     "title": "Durchführung von Strahlenschutzaufgaben in Rückbauprojekten",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/d72bfcd3-ca34-455b-853f-0591199dc76a-CN",
-     "opens": "2026-11-16",
-     "deadline": "2026-12-21",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-d72bfcd3-ca34-455b-853f-0591199dc76a-PIN",
-     "ref": "d72bfcd3-ca34-455b-853f-0591199dc76a-PIN",
-     "title": "Durchführung von Strahlenschutzaufgaben in Rückbauprojekten",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/d72bfcd3-ca34-455b-853f-0591199dc76a-PIN",
-     "opens": "2026-07-21",
-     "deadline": null,
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-0fbe8bf0-8e46-4874-8714-9dc161406097-CN",
-     "ref": "0fbe8bf0-8e46-4874-8714-9dc161406097-CN",
-     "title": "Framework contract for interior design and the delivery of furniture at the JRC Geel and Petten site.",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/0fbe8bf0-8e46-4874-8714-9dc161406097-CN",
-     "opens": "2026-09-16",
-     "deadline": null,
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-7009c242-53da-4c09-8172-459eb55ba54f-CN",
-     "ref": "7009c242-53da-4c09-8172-459eb55ba54f-CN",
-     "title": "Consultancy services for EMSA e-laboratory",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/7009c242-53da-4c09-8172-459eb55ba54f-CN",
-     "opens": "2023-11-24",
-     "deadline": null,
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-bc712395-692d-41ab-aa25-8e254ae86eb2-CN",
-     "ref": "bc712395-692d-41ab-aa25-8e254ae86eb2-CN",
-     "title": "Call for Tenders for the selection of Artificial Intelligence Gigafactory Consortia and the establishment of AI Gigafactories",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/bc712395-692d-41ab-aa25-8e254ae86eb2-CN",
-     "opens": "2026-07-30",
-     "deadline": "2027-02-04",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-EIC-2023-TALENTS-01-01",
-     "ref": "HORIZON-EIC-2023-TALENTS-01-01",
-     "title": "Next Generation Innovation Talents",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2023-TALENTS-01-01",
-     "opens": "2026-11-06",
-     "deadline": "2027-07-31",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL4-2024-RESILIENCE-01-41",
-     "ref": "HORIZON-CL4-2024-RESILIENCE-01-41",
-     "title": "'Innovate to transform' support for SME's sustainability transition (CSA)",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2024-RESILIENCE-01-41",
-     "opens": "2026-11-17",
-     "deadline": "2027-01-19",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-I3-2024-INV2a",
-     "ref": "I3-2024-INV2a",
-     "title": "Interregional Innovation Investments Strand 2a",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/I3-2024-INV2a",
-     "opens": "2026-11-17",
-     "deadline": "2027-01-29",
-     "kind": "EU call for proposals",
-     "programme": "44416173"
-    },
-    {
-     "source": "EU",
-     "id": "eu-75f1c492-7f98-410b-9d14-3a59a83f91d4-CN",
-     "ref": "75f1c492-7f98-410b-9d14-3a59a83f91d4-CN",
-     "title": "Organisation of public events for the EC representation in Cyprus",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/75f1c492-7f98-410b-9d14-3a59a83f91d4-CN",
-     "opens": "2026-11-18",
-     "deadline": "2026-12-22",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-EuropeAid/188041/DD/ACT/JO",
-     "ref": "EuropeAid/188041/DD/ACT/JO",
-     "title": "Skills Development for Syrian Refugees",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EuropeAid/188041/DD/ACT/JO",
-     "opens": "2026-11-18",
-     "deadline": "2027-02-11",
-     "kind": "EU call for proposals",
-     "programme": "111111"
-    },
-    {
-     "source": "EU",
-     "id": "eu-EuropeAid/188136/DD/ACT/MK",
-     "ref": "EuropeAid/188136/DD/ACT/MK",
-     "title": "MK 24 IPA OT 01 26 Digital Transformation of the Ministry of Sport — Sports Information System (SISMS)",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EuropeAid/188136/DD/ACT/MK",
-     "opens": "2026-11-18",
-     "deadline": "2027-02-05",
-     "kind": "EU call for proposals",
-     "programme": "111111"
-    },
-    {
-     "source": "EU",
-     "id": "eu-ac967896-e1d7-4cab-b323-a05afbb9f4d3-CN",
-     "ref": "ac967896-e1d7-4cab-b323-a05afbb9f4d3-CN",
-     "title": "Multi-Component Security Monitoring System",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/ac967896-e1d7-4cab-b323-a05afbb9f4d3-CN",
-     "opens": "2026-10-15",
-     "deadline": "2026-12-08",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-2a09f946-1a8a-469a-af03-b39486eaa29e-CN",
-     "ref": "2a09f946-1a8a-469a-af03-b39486eaa29e-CN",
-     "title": "EU-Canada Digital Partnership",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/2a09f946-1a8a-469a-af03-b39486eaa29e-CN",
-     "opens": "2026-11-16",
-     "deadline": "2026-12-16",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-332a59be-0fb6-4f07-83ce-20142a1e0825-CN",
-     "ref": "332a59be-0fb6-4f07-83ce-20142a1e0825-CN",
-     "title": "Entreprise générale pour la réalisation de travaux de rénovation et de transformation ou de construction (TRT) pour les bâtiments occupés/gérés par la Commission",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/332a59be-0fb6-4f07-83ce-20142a1e0825-CN",
-     "opens": "2026-10-27",
-     "deadline": "2026-12-01",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL6-2024-GOVERNANCE-01-7",
-     "ref": "HORIZON-CL6-2024-GOVERNANCE-01-7",
-     "title": "Enhancing working conditions and strengthening the work force through digital and data technologies – the potential of robotics and augmented reality in agriculture",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2024-GOVERNANCE-01-7",
-     "opens": "2026-11-18",
-     "deadline": "2027-01-25",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-97afacf8-315a-4721-9afd-404a2032b184-CN",
-     "ref": "97afacf8-315a-4721-9afd-404a2032b184-CN",
-     "title": "mid-throughput next generation genome sequencer",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/97afacf8-315a-4721-9afd-404a2032b184-CN",
-     "opens": "2026-11-19",
-     "deadline": "2026-12-21",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-2435bcaa-e5df-4773-82b7-dfffd4c43484-CN",
-     "ref": "2435bcaa-e5df-4773-82b7-dfffd4c43484-CN",
-     "title": "OHD/260934 Support to a point prevalence survey of healthcare-associated infections and antimicrobial use in long-term care facilities, including data validation and analysis",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/2435bcaa-e5df-4773-82b7-dfffd4c43484-CN",
-     "opens": "2026-11-19",
-     "deadline": "2027-01-21",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-909ab517-10ee-40b2-a826-e9cb0a20b4f7-CN",
-     "ref": "909ab517-10ee-40b2-a826-e9cb0a20b4f7-CN",
-     "title": "Achat de tenues de service et vêtements professionnels - Uniformes hommes",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/909ab517-10ee-40b2-a826-e9cb0a20b4f7-CN",
-     "opens": "2026-11-19",
-     "deadline": "2027-01-15",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-97afacf8-315a-4721-9afd-404a2032b184-PIN",
-     "ref": "97afacf8-315a-4721-9afd-404a2032b184-PIN",
-     "title": "mid-throughput next generation genome sequencer",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/97afacf8-315a-4721-9afd-404a2032b184-PIN",
-     "opens": "2026-10-19",
-     "deadline": null,
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-d8a24245-8df3-4f6b-95e3-3937edabe065-PIN",
-     "ref": "d8a24245-8df3-4f6b-95e3-3937edabe065-PIN",
-     "title": "Fourniture de matériel « pre-owned » pour serveurs et stockage ainsi que fourniture de la maintenance",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/d8a24245-8df3-4f6b-95e3-3937edabe065-PIN",
-     "opens": "2026-10-28",
-     "deadline": null,
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-fdb32ec5-ce0a-4ba0-a044-c96fa64b0e0f-CN",
-     "ref": "fdb32ec5-ce0a-4ba0-a044-c96fa64b0e0f-CN",
-     "title": "Mission de contrôleur technique en accessibilité",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/fdb32ec5-ce0a-4ba0-a044-c96fa64b0e0f-CN",
-     "opens": "2026-11-19",
-     "deadline": "2027-01-08",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-2435bcaa-e5df-4773-82b7-dfffd4c43484-PIN",
-     "ref": "2435bcaa-e5df-4773-82b7-dfffd4c43484-PIN",
-     "title": "OHD/260934 Support to a point prevalence survey of healthcare-associated infections and antimicrobial use in long-term care facilities, including data validation and analysis",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/2435bcaa-e5df-4773-82b7-dfffd4c43484-PIN",
-     "opens": "2026-06-30",
-     "deadline": null,
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-1e11b049-7023-4830-8ff3-5083e1b3f308-CN",
-     "ref": "1e11b049-7023-4830-8ff3-5083e1b3f308-CN",
-     "title": "Feasibility study on introduction of the European Child Guarantee Card",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/1e11b049-7023-4830-8ff3-5083e1b3f308-CN",
-     "opens": "2026-11-19",
-     "deadline": "2026-12-23",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-77365600-3da2-42e4-9c4d-da65327fc0a4-CN",
-     "ref": "77365600-3da2-42e4-9c4d-da65327fc0a4-CN",
-     "title": "Security services for the Delegation of the European Union to Serbia",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/77365600-3da2-42e4-9c4d-da65327fc0a4-CN",
-     "opens": "2026-11-19",
-     "deadline": "2026-12-21",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-6daa4bec-0c73-417b-954a-08e58f1812cf-CN",
-     "ref": "6daa4bec-0c73-417b-954a-08e58f1812cf-CN",
-     "title": "Fourniture et pose de produits de signalétique pour la Cour de justice de l'Union européenne",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/6daa4bec-0c73-417b-954a-08e58f1812cf-CN",
-     "opens": "2026-10-09",
-     "deadline": "2027-01-04",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-9cae1d52-760f-461f-ac95-d7febd910d9e-CN",
-     "ref": "9cae1d52-760f-461f-ac95-d7febd910d9e-CN",
-     "title": "AO 26 023 — Contrat cadre de Travaux de Techniques Spéciales dans les bâtiments du Parlement européen à Bruxelles",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/9cae1d52-760f-461f-ac95-d7febd910d9e-CN",
-     "opens": "2026-09-16",
-     "deadline": "2026-12-03",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-950b60af-c2e0-444d-a386-59b5e9ba4942-CN",
-     "ref": "950b60af-c2e0-444d-a386-59b5e9ba4942-CN",
-     "title": "Aggregation and provision of commercial resources for the GOVSATCOM Common Union pool",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/950b60af-c2e0-444d-a386-59b5e9ba4942-CN",
-     "opens": "2026-11-17",
-     "deadline": "2027-02-08",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
-     "id": "eu-d58058b4-7b5e-4d70-82b6-ada492e3ec42-CN",
-     "ref": "d58058b4-7b5e-4d70-82b6-ada492e3ec42-CN",
-     "title": "Preparation of audits, detailed design, tender documents, supervision of civil works for the implementation of energy efficiency measures in local public buildings across all four municipalities",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/d58058b4-7b5e-4d70-82b6-ada492e3ec42-CN",
-     "opens": "2026-11-05",
-     "deadline": "2026-12-22",
-     "kind": "EU tender",
-     "programme": "2014 - 2020"
-    },
-    {
-     "source": "EU",
      "id": "eu-CREA-MEDIA-2027-TVONLINE-3",
      "ref": "CREA-MEDIA-2027-TVONLINE-3",
      "title": "TV and online content Fiction projects",
@@ -6739,171 +6178,6 @@
     },
     {
      "source": "EU",
-     "id": "eu-EUBA-EFSA-2027-ENREL-01",
-     "ref": "EUBA-EFSA-2027-ENREL-01",
-     "title": "Selection of hosting sites and fellows for EFSA's European Food Risk Assessment Fellowship (EU-FORA) Programme",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EUBA-EFSA-2027-ENREL-01",
-     "opens": "2026-11-04",
-     "deadline": "2027-02-24",
-     "kind": "EU call for proposals",
-     "programme": "45532249"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL5-2026-11-D3-04",
-     "ref": "HORIZON-CL5-2026-11-D3-04",
-     "title": "De-risking renewable fuel technologies through transnational pre-commercial procurement of renewable fuel industrial value chains",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-11-D3-04",
-     "opens": "2026-08-04",
-     "deadline": "2026-12-01",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL5-2026-11-D3-23",
-     "ref": "HORIZON-CL5-2026-11-D3-23",
-     "title": "Data sharing to support the training and development of AI foundation models in the energy sector",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-11-D3-23",
-     "opens": "2026-08-04",
-     "deadline": "2026-12-01",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL5-2027-01-D1-13",
-     "ref": "HORIZON-CL5-2027-01-D1-13",
-     "title": "Next generation scenarios for informing climate and sustainability transitions",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-13",
-     "opens": "2026-11-17",
-     "deadline": "2027-03-04",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL5-2027-01-D1-12",
-     "ref": "HORIZON-CL5-2027-01-D1-12",
-     "title": "Better understanding and attribution of land and ocean carbon sources and sinks",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-12",
-     "opens": "2026-11-17",
-     "deadline": "2027-03-04",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL4-2027-01-MAT-PROD-47",
-     "ref": "HORIZON-CL4-2027-01-MAT-PROD-47",
-     "title": "Pilot access schemes to Technology Infrastructures for European startups, scaleups and innovative SMEs (CSA)",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-01-MAT-PROD-47",
-     "opens": "2026-10-13",
-     "deadline": "2027-02-02",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL4-2027-01-MAT-PROD-49",
-     "ref": "HORIZON-CL4-2027-01-MAT-PROD-49",
-     "title": "‘Proof of market’ to improve valorisation and commercialisation of Horizon generated R&I results (IA)",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-01-MAT-PROD-49",
-     "opens": "2026-10-13",
-     "deadline": "2027-02-02",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL4-2027-01-MAT-PROD-62",
-     "ref": "HORIZON-CL4-2027-01-MAT-PROD-62",
-     "title": "Fast Track to Innovation for breakthroughs in the Chemical Industry Action Plan (Research and Innovation Action)",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-01-MAT-PROD-62",
-     "opens": "2026-10-13",
-     "deadline": "2027-02-02",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL4-2027-01-MAT-PROD-03",
-     "ref": "HORIZON-CL4-2027-01-MAT-PROD-03",
-     "title": "Factory processes and automation for de- and re-manufacturing (RIA) (Made in Europe partnership)",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-01-MAT-PROD-03",
-     "opens": "2026-10-13",
-     "deadline": "2027-02-02",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL4-2027-01-MAT-PROD-16",
-     "ref": "HORIZON-CL4-2027-01-MAT-PROD-16",
-     "title": "Technologies for innovative processing of raw materials (IA)",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-01-MAT-PROD-16",
-     "opens": "2026-10-13",
-     "deadline": "2027-02-02",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-CREA-MEDIA-2027-TVONLINE-1",
-     "ref": "CREA-MEDIA-2027-TVONLINE-1",
-     "title": "TV and online content Animation projects",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2027-TVONLINE-1",
-     "opens": "2026-09-30",
-     "deadline": "2027-02-10",
-     "kind": "EU call for proposals",
-     "programme": "43251814"
-    },
-    {
-     "source": "EU",
-     "id": "eu-EUBA-EFSA-2026-BIOHAW-01",
-     "ref": "EUBA-EFSA-2026-BIOHAW-01",
-     "title": "Support to EFSA in the risk assessment of alternative methods for the use and disposal of animal by-products and derived products",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EUBA-EFSA-2026-BIOHAW-01",
-     "opens": "2026-10-08",
-     "deadline": "2026-12-10",
-     "kind": "EU call for proposals",
-     "programme": "45532249"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL5-2027-01-D1-08",
-     "ref": "HORIZON-CL5-2027-01-D1-08",
-     "title": "Palaeoclimate science for a better understanding of Earth system dynamics",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-08",
-     "opens": "2026-11-17",
-     "deadline": "2027-03-04",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL5-2026-11-D3-06",
-     "ref": "HORIZON-CL5-2026-11-D3-06",
-     "title": "Resource assessment for deep sedimentary and basement reservoirs",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-11-D3-06",
-     "opens": "2026-08-04",
-     "deadline": "2026-12-01",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL5-2027-01-D1-11",
-     "ref": "HORIZON-CL5-2027-01-D1-11",
-     "title": "Africa-EU CO-FUND action on climate",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-11",
-     "opens": "2026-11-17",
-     "deadline": "2027-03-04",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
      "id": "eu-CREA-MEDIA-2027-TVONLINE-2",
      "ref": "CREA-MEDIA-2027-TVONLINE-2",
      "title": "TV and online content Documentary projects",
@@ -6912,248 +6186,6 @@
      "deadline": "2027-02-10",
      "kind": "EU call for proposals",
      "programme": "43251814"
-    },
-    {
-     "source": "EU",
-     "id": "eu-CREA-MEDIA-2027-DEVSLATE",
-     "ref": "CREA-MEDIA-2027-DEVSLATE",
-     "title": "European slate development",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2027-DEVSLATE",
-     "opens": "2026-09-30",
-     "deadline": "2026-12-01",
-     "kind": "EU call for proposals",
-     "programme": "43251814"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-RAISE-2027-01-01",
-     "ref": "HORIZON-RAISE-2027-01-01",
-     "title": "Automated Scientific Discovery - Materials Science (RAISE pilot) (RIA)",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-RAISE-2027-01-01",
-     "opens": "2026-10-13",
-     "deadline": "2027-02-02",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL4-2027-04-DIGITAL-EMERGING-11",
-     "ref": "HORIZON-CL4-2027-04-DIGITAL-EMERGING-11",
-     "title": "EU Frontier AI Initiative: Developing frontier AI solutions that are safe and computationally efficient within Apply AI (RIA)",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DIGITAL-EMERGING-11",
-     "opens": "2026-11-17",
-     "deadline": "2027-03-18",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL4-2027-04-DIGITAL-EMERGING-04",
-     "ref": "HORIZON-CL4-2027-04-DIGITAL-EMERGING-04",
-     "title": "Apply AI: Challenge-Driven AI Innovation Booster in Apply AI prioritised sectors (RIA) (Partnership in AI, Data and Robotics)",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DIGITAL-EMERGING-04",
-     "opens": "2026-11-17",
-     "deadline": "2027-03-18",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL4-2027-04-DIGITAL-EMERGING-05",
-     "ref": "HORIZON-CL4-2027-04-DIGITAL-EMERGING-05",
-     "title": "Apply AI: AI-Driven Robotics for Industry: Enabling System Integration and Adoption (IA) (Partnership in AI, Data and Robotics)",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DIGITAL-EMERGING-05",
-     "opens": "2026-11-17",
-     "deadline": "2027-03-18",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL4-2027-01-MAT-PROD-17",
-     "ref": "HORIZON-CL4-2027-01-MAT-PROD-17",
-     "title": "Expert network on Critical raw materials (CSA)",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-01-MAT-PROD-17",
-     "opens": "2026-10-13",
-     "deadline": "2027-02-02",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL5-2026-11-D3-05",
-     "ref": "HORIZON-CL5-2026-11-D3-05",
-     "title": "Demonstration of solid biofuel supply and conversion to high efficiency CHP from fully sustainable regional value chains",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-11-D3-05",
-     "opens": "2026-08-04",
-     "deadline": "2026-12-01",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL5-2027-01-D1-07",
-     "ref": "HORIZON-CL5-2027-01-D1-07",
-     "title": "Advancing understanding, modelling and prediction of extreme events in a changing climate",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-07",
-     "opens": "2026-11-17",
-     "deadline": "2027-03-04",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL5-2027-01-D1-10",
-     "ref": "HORIZON-CL5-2027-01-D1-10",
-     "title": "Understanding and avoiding maladaptation to climate change",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-10",
-     "opens": "2026-11-17",
-     "deadline": "2027-03-04",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL4-2027-01-MAT-PROD-42",
-     "ref": "HORIZON-CL4-2027-01-MAT-PROD-42",
-     "title": "Unlocking the potential of academic intellectual assets for industry, SMEs and startups (CSA)",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-01-MAT-PROD-42",
-     "opens": "2026-10-13",
-     "deadline": "2027-02-02",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL4-2027-01-MAT-PROD-61",
-     "ref": "HORIZON-CL4-2027-01-MAT-PROD-61",
-     "title": "Fast Track to Research and Innovation for breakthroughs in industrial technologies (Research and Innovation Action)",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-01-MAT-PROD-61",
-     "opens": "2026-10-13",
-     "deadline": "2027-02-02",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL4-2027-01-MAT-PROD-08",
-     "ref": "HORIZON-CL4-2027-01-MAT-PROD-08",
-     "title": "Textile circularity through advanced processing and manufacturing technologies and system approaches (IA) (Textiles for the Future partnership)",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-01-MAT-PROD-08",
-     "opens": "2026-10-13",
-     "deadline": "2027-02-02",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL4-2027-01-MAT-PROD-02",
-     "ref": "HORIZON-CL4-2027-01-MAT-PROD-02",
-     "title": "Advanced manufacturing for key products (IA) (Made in Europe partnership)",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-01-MAT-PROD-02",
-     "opens": "2026-10-13",
-     "deadline": "2027-02-02",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL4-2027-01-MAT-PROD-22",
-     "ref": "HORIZON-CL4-2027-01-MAT-PROD-22",
-     "title": "Innovative advanced materials and new production processes – reducing dependencies on Critical and Strategic Raw Materials (IA) (Innovative Advanced Materials for the EU and Processes4Planet partnerships)",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-01-MAT-PROD-22",
-     "opens": "2026-10-13",
-     "deadline": "2027-02-02",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL4-2027-01-MAT-PROD-06",
-     "ref": "HORIZON-CL4-2027-01-MAT-PROD-06",
-     "title": "Circular innovative advanced materials: facilitating the transition from design to markets (RIA) (Innovative Advanced Materials for the EU and Made in Europe partnerships)",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-01-MAT-PROD-06",
-     "opens": "2026-10-13",
-     "deadline": "2027-02-02",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-WIDERA-2027-04-WIDENING-01",
-     "ref": "HORIZON-WIDERA-2027-04-WIDENING-01",
-     "title": "Excellence Hubs",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-WIDERA-2027-04-WIDENING-01",
-     "opens": "2026-09-02",
-     "deadline": "2027-03-04",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-DIGITAL-ECCC-2027-DEPLOY-CYBER-12-NATCH",
-     "ref": "DIGITAL-ECCC-2027-DEPLOY-CYBER-12-NATCH",
-     "title": "National Cyber Hubs",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-ECCC-2027-DEPLOY-CYBER-12-NATCH",
-     "opens": "2026-10-15",
-     "deadline": "2027-03-16",
-     "kind": "EU call for proposals",
-     "programme": "43152860"
-    },
-    {
-     "source": "EU",
-     "id": "eu-CERV-2026-CITIZENS-REM-HOLOCAUSTJEW",
-     "ref": "CERV-2026-CITIZENS-REM-HOLOCAUSTJEW",
-     "title": "Strengthening the remembrance of the Holocaust against Jewish people.",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CERV-2026-CITIZENS-REM-HOLOCAUSTJEW",
-     "opens": "2026-10-21",
-     "deadline": "2027-02-24",
-     "kind": "EU call for proposals",
-     "programme": "43251589"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-EIC-2026-PRIZE-WIP",
-     "ref": "HORIZON-EIC-2026-PRIZE-WIP",
-     "title": "The European Prize for Women Innovators",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-PRIZE-WIP",
-     "opens": "2026-09-02",
-     "deadline": "2026-12-01",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL4-2027-04-DIGITAL-EMERGING-06",
-     "ref": "HORIZON-CL4-2027-04-DIGITAL-EMERGING-06",
-     "title": "International cooperation in AI (IA)",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DIGITAL-EMERGING-06",
-     "opens": "2026-11-17",
-     "deadline": "2027-03-18",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL4-2027-04-DATA-09",
-     "ref": "HORIZON-CL4-2027-04-DATA-09",
-     "title": "Energy efficiency and sustainability of AI data processing in Data Centres (IA)",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DATA-09",
-     "opens": "2026-11-17",
-     "deadline": "2027-03-18",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
-    },
-    {
-     "source": "EU",
-     "id": "eu-HORIZON-CL4-2027-04-DATA-08",
-     "ref": "HORIZON-CL4-2027-04-DATA-08",
-     "title": "Demand-side 3C pilot demonstrators on converged Telco Edge Cloud Infrastructure (IA)",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DATA-08",
-     "opens": "2026-11-17",
-     "deadline": "2027-03-18",
-     "kind": "EU call for proposals",
-     "programme": "43108390"
     },
     {
      "source": "EU",
@@ -7179,14 +6211,168 @@
     },
     {
      "source": "EU",
-     "id": "eu-HORIZON-CL4-2027-02-MAT-PROD-32-two-stage",
-     "ref": "HORIZON-CL4-2027-02-MAT-PROD-32-two-stage",
-     "title": "Efficient energy input from renewable sources and energy management in the process industries (IA) (Processes4Planet and Innovative Advanced Materials for the EU partnerships)",
-     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-02-MAT-PROD-32-two-stage",
+     "id": "eu-HORIZON-CL4-2027-01-MAT-PROD-17",
+     "ref": "HORIZON-CL4-2027-01-MAT-PROD-17",
+     "title": "Expert network on Critical raw materials (CSA)",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-01-MAT-PROD-17",
      "opens": "2026-10-13",
      "deadline": "2027-02-02",
      "kind": "EU call for proposals",
      "programme": "43108390"
+    },
+    {
+     "source": "EU",
+     "id": "eu-ERC-2027-COG",
+     "ref": "ERC-2027-COG",
+     "title": "ERC Consolidator Grant",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERC-2027-COG",
+     "opens": "2026-09-24",
+     "deadline": "2027-01-12",
+     "kind": "EU call for proposals",
+     "programme": "43108390"
+    },
+    {
+     "source": "EU",
+     "id": "eu-HORIZON-CL5-2027-01-D1-11",
+     "ref": "HORIZON-CL5-2027-01-D1-11",
+     "title": "Africa-EU CO-FUND action on climate",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-11",
+     "opens": "2026-11-17",
+     "deadline": "2027-03-04",
+     "kind": "EU call for proposals",
+     "programme": "43108390"
+    },
+    {
+     "source": "EU",
+     "id": "eu-EUBA-EFSA-2026-BIOHAW-01",
+     "ref": "EUBA-EFSA-2026-BIOHAW-01",
+     "title": "Support to EFSA in the risk assessment of alternative methods for the use and disposal of animal by-products and derived products",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EUBA-EFSA-2026-BIOHAW-01",
+     "opens": "2026-10-08",
+     "deadline": "2026-12-10",
+     "kind": "EU call for proposals",
+     "programme": "45532249"
+    },
+    {
+     "source": "EU",
+     "id": "eu-DIGITAL-ECCC-2027-DEPLOY-CYBER-12-CBCH",
+     "ref": "DIGITAL-ECCC-2027-DEPLOY-CYBER-12-CBCH",
+     "title": "Cross-border Cyber Hubs",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-ECCC-2027-DEPLOY-CYBER-12-CBCH",
+     "opens": "2026-10-15",
+     "deadline": "2027-03-16",
+     "kind": "EU call for proposals",
+     "programme": "43152860"
+    },
+    {
+     "source": "EU",
+     "id": "eu-CREA-MEDIA-2027-DEVVGIM",
+     "ref": "CREA-MEDIA-2027-DEVVGIM",
+     "title": "European video games and immersive content",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2027-DEVVGIM",
+     "opens": "2026-09-30",
+     "deadline": "2027-02-02",
+     "kind": "EU call for proposals",
+     "programme": "43251814"
+    },
+    {
+     "source": "EU",
+     "id": "eu-CREA-MEDIA-2027-TVONLINE-1",
+     "ref": "CREA-MEDIA-2027-TVONLINE-1",
+     "title": "TV and online content Animation projects",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2027-TVONLINE-1",
+     "opens": "2026-09-30",
+     "deadline": "2027-02-10",
+     "kind": "EU call for proposals",
+     "programme": "43251814"
+    },
+    {
+     "source": "EU",
+     "id": "eu-CREA-MEDIA-2027-DEVSLATE",
+     "ref": "CREA-MEDIA-2027-DEVSLATE",
+     "title": "European slate development",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2027-DEVSLATE",
+     "opens": "2026-09-30",
+     "deadline": "2026-12-01",
+     "kind": "EU call for proposals",
+     "programme": "43251814"
+    },
+    {
+     "source": "EU",
+     "id": "eu-ERC-2027-POC",
+     "ref": "ERC-2027-POC",
+     "title": "Proof of Concept Grant",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERC-2027-POC",
+     "opens": "2026-11-12",
+     "deadline": "2027-03-10",
+     "kind": "EU call for proposals",
+     "programme": "43108390"
+    },
+    {
+     "source": "EU",
+     "id": "eu-EUBA-EFSA-2027-ENREL-01",
+     "ref": "EUBA-EFSA-2027-ENREL-01",
+     "title": "Selection of hosting sites and fellows for EFSA's European Food Risk Assessment Fellowship (EU-FORA) Programme",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EUBA-EFSA-2027-ENREL-01",
+     "opens": "2026-11-04",
+     "deadline": "2027-02-24",
+     "kind": "EU call for proposals",
+     "programme": "45532249"
+    },
+    {
+     "source": "EU",
+     "id": "eu-HORIZON-CL5-2026-11-D3-23",
+     "ref": "HORIZON-CL5-2026-11-D3-23",
+     "title": "Data sharing to support the training and development of AI foundation models in the energy sector",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-11-D3-23",
+     "opens": "2026-08-04",
+     "deadline": "2026-12-01",
+     "kind": "EU call for proposals",
+     "programme": "43108390"
+    },
+    {
+     "source": "EU",
+     "id": "eu-HORIZON-CL5-2026-11-D3-06",
+     "ref": "HORIZON-CL5-2026-11-D3-06",
+     "title": "Resource assessment for deep sedimentary and basement reservoirs",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-11-D3-06",
+     "opens": "2026-08-04",
+     "deadline": "2026-12-01",
+     "kind": "EU call for proposals",
+     "programme": "43108390"
+    },
+    {
+     "source": "EU",
+     "id": "eu-HORIZON-CL5-2027-01-D1-08",
+     "ref": "HORIZON-CL5-2027-01-D1-08",
+     "title": "Palaeoclimate science for a better understanding of Earth system dynamics",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-08",
+     "opens": "2026-11-17",
+     "deadline": "2027-03-04",
+     "kind": "EU call for proposals",
+     "programme": "43108390"
+    },
+    {
+     "source": "EU",
+     "id": "eu-HORIZON-CL6-2026-04-GOVERNANCE-01",
+     "ref": "HORIZON-CL6-2026-04-GOVERNANCE-01",
+     "title": "Additional activities for the European Partnership of Agriculture of Data",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2026-04-GOVERNANCE-01",
+     "opens": "2026-08-25",
+     "deadline": "2026-11-26",
+     "kind": "EU call for proposals",
+     "programme": "43108390"
+    },
+    {
+     "source": "EU",
+     "id": "eu-JUST-2027-JTRA",
+     "ref": "JUST-2027-JTRA",
+     "title": "Call for proposals for action grants to support transnational projects on judicial training covering civil law, criminal law or fundamental rights",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/JUST-2027-JTRA",
+     "opens": "2026-10-28",
+     "deadline": "2027-03-04",
+     "kind": "EU call for proposals",
+     "programme": "43252386"
     },
     {
      "source": "EU",
@@ -7196,6 +6382,820 @@
      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-11-D3-14",
      "opens": "2026-08-04",
      "deadline": "2026-12-01",
+     "kind": "EU call for proposals",
+     "programme": "43108390"
+    },
+    {
+     "source": "EU",
+     "id": "eu-49b6860e-3063-4206-9dbb-cbfd08360d40-CN",
+     "ref": "49b6860e-3063-4206-9dbb-cbfd08360d40-CN",
+     "title": "Delivering IT and Firearms Equipment to the NFFP in the frame of the EU4Security Moldova Project",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/49b6860e-3063-4206-9dbb-cbfd08360d40-CN",
+     "opens": "2026-10-30",
+     "deadline": "2027-01-11",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-05c4eabb-8a91-438b-b0e2-7a907fc9c441-CN",
+     "ref": "05c4eabb-8a91-438b-b0e2-7a907fc9c441-CN",
+     "title": "06D30/2026/M034 – Bruxelles - Contrat-cadre de fourniture et installation d’équipements de signalétique",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/05c4eabb-8a91-438b-b0e2-7a907fc9c441-CN",
+     "opens": "2026-10-20",
+     "deadline": "2027-02-15",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-f71c1e8d-dc79-4785-a426-380923b3dcc4-CN",
+     "ref": "f71c1e8d-dc79-4785-a426-380923b3dcc4-CN",
+     "title": "Provision of Travel Agency services",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/f71c1e8d-dc79-4785-a426-380923b3dcc4-CN",
+     "opens": "2026-11-06",
+     "deadline": "2026-12-15",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-f71c1e8d-dc79-4785-a426-380923b3dcc4-PIN",
+     "ref": "f71c1e8d-dc79-4785-a426-380923b3dcc4-PIN",
+     "title": "Provision of Travel Agency services",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/f71c1e8d-dc79-4785-a426-380923b3dcc4-PIN",
+     "opens": "2026-08-12",
+     "deadline": null,
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-EuropeAid/187959/DD/ACT/UA",
+     "ref": "EuropeAid/187959/DD/ACT/UA",
+     "title": "Enhancing the institutional capacity of the Economic Security Bureau of Ukraine in combating currency counterfeiting through the implementation of the International Convention for the Suppression of Counterfeiting Currency, signed in Geneva on 20 April 1929, and EU acquis.",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EuropeAid/187959/DD/ACT/UA",
+     "opens": "2026-11-06",
+     "deadline": "2027-02-05",
+     "kind": "EU call for proposals",
+     "programme": "111111"
+    },
+    {
+     "source": "EU",
+     "id": "eu-HORIZON-EIT-2025-KIC-IBA-F",
+     "ref": "HORIZON-EIT-2025-KIC-IBA-F",
+     "title": "EITFOOD Business Plan 2026",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIT-2025-KIC-IBA-F",
+     "opens": "2026-11-06",
+     "deadline": "2027-01-05",
+     "kind": "EU call for proposals",
+     "programme": "43108390"
+    },
+    {
+     "source": "EU",
+     "id": "eu-HORIZON-EIT-2025-KIC-IBA-F",
+     "ref": "HORIZON-EIT-2025-KIC-IBA-F",
+     "title": "EITFOOD Business Plan 2026",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIT-2025-KIC-IBA-F",
+     "opens": "2026-11-06",
+     "deadline": "2027-01-18",
+     "kind": "EU call for proposals",
+     "programme": "43108390"
+    },
+    {
+     "source": "EU",
+     "id": "eu-HORIZON-MISS-2024-OCEAN-IBA",
+     "ref": "HORIZON-MISS-2024-OCEAN-IBA",
+     "title": "EU Public Infrastructure for the European Digital Twin Ocean, phase 2",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2024-OCEAN-IBA",
+     "opens": "2026-11-09",
+     "deadline": "2027-01-29",
+     "kind": "EU call for proposals",
+     "programme": "43108390"
+    },
+    {
+     "source": "EU",
+     "id": "eu-4b6b18e7-c217-4497-b1de-ca3d1f1410f6-CN",
+     "ref": "4b6b18e7-c217-4497-b1de-ca3d1f1410f6-CN",
+     "title": "European Capitals of Tourism",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/4b6b18e7-c217-4497-b1de-ca3d1f1410f6-CN",
+     "opens": "2026-11-06",
+     "deadline": "2027-01-04",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-85dc623b-0aef-4a5c-b829-69eba31ad603-CN",
+     "ref": "85dc623b-0aef-4a5c-b829-69eba31ad603-CN",
+     "title": "Servicios de agencia de viajes para la Delegación de la Unión Europea en Colombia",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/85dc623b-0aef-4a5c-b829-69eba31ad603-CN",
+     "opens": "2026-11-06",
+     "deadline": "2026-12-14",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-4d15f012-3b58-4f4e-9d19-1fc28943db08-CN",
+     "ref": "4d15f012-3b58-4f4e-9d19-1fc28943db08-CN",
+     "title": "Rental of up to 8 armored cars for European Union Training Mission – Somalia (EUTM-S)",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/4d15f012-3b58-4f4e-9d19-1fc28943db08-CN",
+     "opens": "2026-11-06",
+     "deadline": "2026-12-28",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-1e8dc671-25e5-401f-9a86-f79daf1a5814-CN",
+     "ref": "1e8dc671-25e5-401f-9a86-f79daf1a5814-CN",
+     "title": "Support for the assessment of the aviation non-CO2 MRV framework",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/1e8dc671-25e5-401f-9a86-f79daf1a5814-CN",
+     "opens": "2026-11-06",
+     "deadline": "2026-12-07",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-63c95896-453b-4d58-b060-15784cf65b4b-CN",
+     "ref": "63c95896-453b-4d58-b060-15784cf65b4b-CN",
+     "title": "EU Security Sector Governance Facility",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/63c95896-453b-4d58-b060-15784cf65b4b-CN",
+     "opens": "2026-11-06",
+     "deadline": "2026-12-18",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-0e8da44f-6270-45a4-be8d-84090257d153-CN",
+     "ref": "0e8da44f-6270-45a4-be8d-84090257d153-CN",
+     "title": "Support for the organisation of events and other communication and information activities of the European Parliament Liaison Office in Greece",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/0e8da44f-6270-45a4-be8d-84090257d153-CN",
+     "opens": "2026-11-06",
+     "deadline": "2026-12-16",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-f403438f-505a-4301-b5a7-cb24e9144556-CN",
+     "ref": "f403438f-505a-4301-b5a7-cb24e9144556-CN",
+     "title": "Europa Experience Floor Staff - Slovakia",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/f403438f-505a-4301-b5a7-cb24e9144556-CN",
+     "opens": "2026-11-06",
+     "deadline": "2026-12-15",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-EuropeAid/187670/DD/ACT/Multi",
+     "ref": "EuropeAid/187670/DD/ACT/Multi",
+     "title": "Cross-border Programme North Macedonia - Albania under the Instrument of Pre-accession Assistance (IPA III) allocations for 2024",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EuropeAid/187670/DD/ACT/Multi",
+     "opens": "2026-10-07",
+     "deadline": "2027-01-15",
+     "kind": "EU call for proposals",
+     "programme": "111111"
+    },
+    {
+     "source": "EU",
+     "id": "eu-d91ce41e-76ca-4a06-8a3c-7a112b6eff6d-CN",
+     "ref": "d91ce41e-76ca-4a06-8a3c-7a112b6eff6d-CN",
+     "title": "PKI L2/L3 maintenance services",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/d91ce41e-76ca-4a06-8a3c-7a112b6eff6d-CN",
+     "opens": "2026-11-04",
+     "deadline": "2026-12-16",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-c798b898-fd3f-4c20-9dc1-60004850d018-CN",
+     "ref": "c798b898-fd3f-4c20-9dc1-60004850d018-CN",
+     "title": "Facilities and Corporate Support Services",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/c798b898-fd3f-4c20-9dc1-60004850d018-CN",
+     "opens": "2026-11-09",
+     "deadline": "2027-01-28",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-c798b898-fd3f-4c20-9dc1-60004850d018-PIN",
+     "ref": "c798b898-fd3f-4c20-9dc1-60004850d018-PIN",
+     "title": "Facilities and Corporate Support Services",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/c798b898-fd3f-4c20-9dc1-60004850d018-PIN",
+     "opens": "2026-07-08",
+     "deadline": null,
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-DIGITAL-2022-SKILLS-03-SPECIALISED-EDU",
+     "ref": "DIGITAL-2022-SKILLS-03-SPECIALISED-EDU",
+     "title": "Specialised education programmes or modules in key capacity areas",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2022-SKILLS-03-SPECIALISED-EDU",
+     "opens": "2026-11-09",
+     "deadline": "2027-01-10",
+     "kind": "EU call for proposals",
+     "programme": "43152860"
+    },
+    {
+     "source": "EU",
+     "id": "eu-EuropeAid/187607/DD/ACT/UZ",
+     "ref": "EuropeAid/187607/DD/ACT/UZ",
+     "title": "Support to Civil Society, Human Rights and Democracy in Uzbekistan 2026-2027",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EuropeAid/187607/DD/ACT/UZ",
+     "opens": "2026-11-09",
+     "deadline": "2027-01-29",
+     "kind": "EU call for proposals",
+     "programme": "111111"
+    },
+    {
+     "source": "EU",
+     "id": "eu-HORIZON-EIT-2025-KIC-IBA-F",
+     "ref": "HORIZON-EIT-2025-KIC-IBA-F",
+     "title": "EITFOOD Business Plan 2026",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIT-2025-KIC-IBA-F",
+     "opens": "2026-11-06",
+     "deadline": "2026-12-16",
+     "kind": "EU call for proposals",
+     "programme": "43108390"
+    },
+    {
+     "source": "EU",
+     "id": "eu-HORIZON-CL4-2024-HUMAN-03-04",
+     "ref": "HORIZON-CL4-2024-HUMAN-03-04",
+     "title": "Facilitate the engagement in global ICT standardisation development (CSA)",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2024-HUMAN-03-04",
+     "opens": "2026-11-09",
+     "deadline": "2027-01-08",
+     "kind": "EU call for proposals",
+     "programme": "43108390"
+    },
+    {
+     "source": "EU",
+     "id": "eu-a18a6458-130f-4fb4-b39e-717e19e8eac4-PIN",
+     "ref": "a18a6458-130f-4fb4-b39e-717e19e8eac4-PIN",
+     "title": "Supply and maintenance of one Liquid Scintillation Counter for LMR",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/a18a6458-130f-4fb4-b39e-717e19e8eac4-PIN",
+     "opens": "2026-10-26",
+     "deadline": null,
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-5c5186c2-3057-4171-a2f4-f7dbc810509f-PIN",
+     "ref": "5c5186c2-3057-4171-a2f4-f7dbc810509f-PIN",
+     "title": "Maritime Spatial Planning Assistance Mechanism and European Blue Forum",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/5c5186c2-3057-4171-a2f4-f7dbc810509f-PIN",
+     "opens": "2026-08-28",
+     "deadline": null,
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-fcee11b5-4118-40db-8e30-04d2e308a683-CN",
+     "ref": "fcee11b5-4118-40db-8e30-04d2e308a683-CN",
+     "title": "Provision of seminars to train judges and legal practitioners on EU non-discrimination, EU gender equality and EU disability legislation",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/fcee11b5-4118-40db-8e30-04d2e308a683-CN",
+     "opens": "2026-11-10",
+     "deadline": "2026-12-23",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-5c5186c2-3057-4171-a2f4-f7dbc810509f-CN",
+     "ref": "5c5186c2-3057-4171-a2f4-f7dbc810509f-CN",
+     "title": "Assistance mechanism on Maritime Spatial Planning (MSP)",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/5c5186c2-3057-4171-a2f4-f7dbc810509f-CN",
+     "opens": "2026-11-10",
+     "deadline": "2027-01-18",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-963e0d0f-4a64-4d8c-a47e-782eb09f7e2d-CN",
+     "ref": "963e0d0f-4a64-4d8c-a47e-782eb09f7e2d-CN",
+     "title": "Security works and maintenace services on security installations for the EU delegations, Residences and EEAS office buildings worldwide",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/963e0d0f-4a64-4d8c-a47e-782eb09f7e2d-CN",
+     "opens": "2026-11-10",
+     "deadline": "2026-12-14",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-0470bb62-ced7-4646-89c7-3c3863e898b6-CN",
+     "ref": "0470bb62-ced7-4646-89c7-3c3863e898b6-CN",
+     "title": "Content support to the Forest Information System for Europe (FISE) and forest assessments with respect to support to forest-related EU policies",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/0470bb62-ced7-4646-89c7-3c3863e898b6-CN",
+     "opens": "2026-11-10",
+     "deadline": "2027-01-05",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-a18a6458-130f-4fb4-b39e-717e19e8eac4-CN",
+     "ref": "a18a6458-130f-4fb4-b39e-717e19e8eac4-CN",
+     "title": "Supply and maintenance of one Liquid Scintillation Counter for LMR",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/a18a6458-130f-4fb4-b39e-717e19e8eac4-CN",
+     "opens": "2026-11-10",
+     "deadline": "2026-12-14",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-00a20672-a47d-49a9-8de3-6fd99aa33186-CN",
+     "ref": "00a20672-a47d-49a9-8de3-6fd99aa33186-CN",
+     "title": "European network of legal experts in gender equality, disability and non-discrimination",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/00a20672-a47d-49a9-8de3-6fd99aa33186-CN",
+     "opens": "2026-11-10",
+     "deadline": "2027-01-15",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-eae414b2-ab13-4abf-9b52-8d2bba21fd5e-CN",
+     "ref": "eae414b2-ab13-4abf-9b52-8d2bba21fd5e-CN",
+     "title": "Completion and development of Environmental Footprint Datasets",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/eae414b2-ab13-4abf-9b52-8d2bba21fd5e-CN",
+     "opens": "2026-11-10",
+     "deadline": "2027-01-04",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-09b3867b-ff97-4d96-9a80-2e734ecef6e7-CN",
+     "ref": "09b3867b-ff97-4d96-9a80-2e734ecef6e7-CN",
+     "title": "Multiple Framework Contracts in cascade for support services for expert groups and other stakeholders in the field of health and food 2027-2031",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/09b3867b-ff97-4d96-9a80-2e734ecef6e7-CN",
+     "opens": "2026-11-10",
+     "deadline": "2027-01-18",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-e45cffd9-826e-4c75-8ea8-8791917b5076-CN",
+     "ref": "e45cffd9-826e-4c75-8ea8-8791917b5076-CN",
+     "title": "Fornecimento de Eletricidade às instalações da EMSA",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/e45cffd9-826e-4c75-8ea8-8791917b5076-CN",
+     "opens": "2026-11-11",
+     "deadline": "2026-12-18",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-7c48c685-53d4-4505-94f6-69fdf9b49201-CN",
+     "ref": "7c48c685-53d4-4505-94f6-69fdf9b49201-CN",
+     "title": "Contrato marco de servicios de seguridad. Servicios de Seguridad para la Delegación de la Unión Europea en Colombia",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/7c48c685-53d4-4505-94f6-69fdf9b49201-CN",
+     "opens": "2026-11-11",
+     "deadline": "2026-12-14",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-EDF-2025-DA-SI-GROUND-DAMM",
+     "ref": "EDF-2025-DA-SI-GROUND-DAMM",
+     "title": "Drone-based affordable mass munitions",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EDF-2025-DA-SI-GROUND-DAMM",
+     "opens": "2026-11-09",
+     "deadline": "2027-01-11",
+     "kind": "EU call for proposals",
+     "programme": "44181033"
+    },
+    {
+     "source": "EU",
+     "id": "eu-54f13b0e-8c5a-438a-8cfd-9547ee2500a6-CN",
+     "ref": "54f13b0e-8c5a-438a-8cfd-9547ee2500a6-CN",
+     "title": "Security Assessment Services",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/54f13b0e-8c5a-438a-8cfd-9547ee2500a6-CN",
+     "opens": "2026-11-13",
+     "deadline": "2026-12-14",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-HORIZON-CL4-2025-03-DIGITAL-EMERGING-07",
+     "ref": "HORIZON-CL4-2025-03-DIGITAL-EMERGING-07",
+     "title": "Robust and trustworthy GenerativeAI for Robotics and industrial automation (RIA) (AI/Data/Robotics & Made in Europe Partnerships)",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2025-03-DIGITAL-EMERGING-07",
+     "opens": "2026-11-09",
+     "deadline": "2027-02-10",
+     "kind": "EU call for proposals",
+     "programme": "43108390"
+    },
+    {
+     "source": "EU",
+     "id": "eu-4b53624d-3bbe-4f35-91d5-cb027a37548b-CN",
+     "ref": "4b53624d-3bbe-4f35-91d5-cb027a37548b-CN",
+     "title": "Durchführung von Aufbau und Änderung von Elektroinstallationen an Handschuhkästen, heißen Zellen, Labors und im Gebäude im JRC Karlsruhe",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/4b53624d-3bbe-4f35-91d5-cb027a37548b-CN",
+     "opens": "2026-11-13",
+     "deadline": "2026-12-21",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-DIGITAL-2022-SKILLS-03-SPECIALISED-EDU",
+     "ref": "DIGITAL-2022-SKILLS-03-SPECIALISED-EDU",
+     "title": "Specialised education programmes or modules in key capacity areas",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2022-SKILLS-03-SPECIALISED-EDU",
+     "opens": "2026-11-05",
+     "deadline": "2027-01-13",
+     "kind": "EU call for proposals",
+     "programme": "43152860"
+    },
+    {
+     "source": "EU",
+     "id": "eu-706cdda7-fc54-4950-95ce-d9d3bee4f97e-CN",
+     "ref": "706cdda7-fc54-4950-95ce-d9d3bee4f97e-CN",
+     "title": "Support for the implementation of VET reforms",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/706cdda7-fc54-4950-95ce-d9d3bee4f97e-CN",
+     "opens": "2026-11-12",
+     "deadline": "2026-12-21",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-e7093cb3-420c-498d-bf98-9217c4b59026-CN",
+     "ref": "e7093cb3-420c-498d-bf98-9217c4b59026-CN",
+     "title": "Assessing the Elasticity of Retail Investment to Tax Incentives",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/e7093cb3-420c-498d-bf98-9217c4b59026-CN",
+     "opens": "2026-10-12",
+     "deadline": "2026-12-04",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-5854a330-99de-4a8e-bcaf-081c26532596-CN",
+     "ref": "5854a330-99de-4a8e-bcaf-081c26532596-CN",
+     "title": "Provision of Academic Services for the European Executive Master’s in Asylum and Reception Management",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/5854a330-99de-4a8e-bcaf-081c26532596-CN",
+     "opens": "2026-11-12",
+     "deadline": "2027-01-14",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-24ae0dc7-7cc5-4376-b8e4-73546d45d1f1-CN",
+     "ref": "24ae0dc7-7cc5-4376-b8e4-73546d45d1f1-CN",
+     "title": "Framework Contract for Impact Assessment and Evaluation Support Studies in the Field of Transport and Tourism",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/24ae0dc7-7cc5-4376-b8e4-73546d45d1f1-CN",
+     "opens": "2026-10-29",
+     "deadline": "2026-12-16",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-HORIZON-CL4-2024-DATA-01-03",
+     "ref": "HORIZON-CL4-2024-DATA-01-03",
+     "title": "Piloting emerging Smart IoT Platforms and decentralized intelligence (IA)",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2024-DATA-01-03",
+     "opens": "2026-11-12",
+     "deadline": "2027-01-14",
+     "kind": "EU call for proposals",
+     "programme": "43108390"
+    },
+    {
+     "source": "EU",
+     "id": "eu-d9d0fac5-07bb-4d5e-85e2-04ab73bc23b2",
+     "ref": "d9d0fac5-07bb-4d5e-85e2-04ab73bc23b2",
+     "title": "On site support activities and supply of Test Coils",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/d9d0fac5-07bb-4d5e-85e2-04ab73bc23b2",
+     "opens": "2026-11-09",
+     "deadline": "2026-11-30",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-987741b0-46fb-4fea-ad74-facf2689f4a3",
+     "ref": "987741b0-46fb-4fea-ad74-facf2689f4a3",
+     "title": "Integration of the JT-60SA Actively Cooled Divertor",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/987741b0-46fb-4fea-ad74-facf2689f4a3",
+     "opens": "2026-10-27",
+     "deadline": "2026-11-30",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-e29aa6a7-6d1a-4f1f-b7e2-77559f4e9081",
+     "ref": "e29aa6a7-6d1a-4f1f-b7e2-77559f4e9081",
+     "title": "Quality Control Inspectors for ITER and Broader Approach and Roadmap Projects",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/e29aa6a7-6d1a-4f1f-b7e2-77559f4e9081",
+     "opens": "2026-10-14",
+     "deadline": "2026-12-02",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-I3-2024-INV2a",
+     "ref": "I3-2024-INV2a",
+     "title": "Interregional Innovation Investments Strand 2a",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/I3-2024-INV2a",
+     "opens": "2026-11-12",
+     "deadline": "2027-01-18",
+     "kind": "EU call for proposals",
+     "programme": "44416173"
+    },
+    {
+     "source": "EU",
+     "id": "eu-097a8d00-7c33-4e21-805e-cb84af372688-CN",
+     "ref": "097a8d00-7c33-4e21-805e-cb84af372688-CN",
+     "title": "Data management services - 210901/8077",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/097a8d00-7c33-4e21-805e-cb84af372688-CN",
+     "opens": "2026-11-12",
+     "deadline": "2027-01-14",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-HORIZON-HLTH-2024-DISEASE-09-01",
+     "ref": "HORIZON-HLTH-2024-DISEASE-09-01",
+     "title": "European Partnership: One Health Anti-Microbial Resistance",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2024-DISEASE-09-01",
+     "opens": "2026-11-18",
+     "deadline": "2027-02-01",
+     "kind": "EU call for proposals",
+     "programme": "43108390"
+    },
+    {
+     "source": "EU",
+     "id": "eu-DIGITAL-ECCC-2024-DEPLOY-NCC-06-MS-COORDINATION",
+     "ref": "DIGITAL-ECCC-2024-DEPLOY-NCC-06-MS-COORDINATION",
+     "title": "Deploying The Network of National Coordination Centres with Member States",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-ECCC-2024-DEPLOY-NCC-06-MS-COORDINATION",
+     "opens": "2026-10-01",
+     "deadline": "2026-12-01",
+     "kind": "EU call for proposals",
+     "programme": "43152860"
+    },
+    {
+     "source": "EU",
+     "id": "eu-d8a24245-8df3-4f6b-95e3-3937edabe065-CN",
+     "ref": "d8a24245-8df3-4f6b-95e3-3937edabe065-CN",
+     "title": "Fourniture de matériel « pre-owned » pour serveurs et stockage ainsi que fourniture de la maintenance",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/d8a24245-8df3-4f6b-95e3-3937edabe065-CN",
+     "opens": "2026-11-19",
+     "deadline": "2026-12-23",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-HORIZON-EIC-2026-PRIZE-WIP",
+     "ref": "HORIZON-EIC-2026-PRIZE-WIP",
+     "title": "The European Prize for Women Innovators",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-PRIZE-WIP",
+     "opens": "2026-09-02",
+     "deadline": "2026-12-01",
+     "kind": "EU call for proposals",
+     "programme": "43108390"
+    },
+    {
+     "source": "EU",
+     "id": "eu-HORIZON-EIT-2026-PRIZE-WIP-LEADERSHIP",
+     "ref": "HORIZON-EIT-2026-PRIZE-WIP-LEADERSHIP",
+     "title": "Women Leadership Category",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIT-2026-PRIZE-WIP-LEADERSHIP",
+     "opens": "2026-09-02",
+     "deadline": "2026-12-01",
+     "kind": "EU call for proposals",
+     "programme": "43108390"
+    },
+    {
+     "source": "EU",
+     "id": "eu-b58f5221-d7b6-4185-82bf-1d0981b73534-CN",
+     "ref": "b58f5221-d7b6-4185-82bf-1d0981b73534-CN",
+     "title": "Prestación de servicios de biblioteca y de gestión del contenido digital",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/b58f5221-d7b6-4185-82bf-1d0981b73534-CN",
+     "opens": "2026-11-20",
+     "deadline": "2027-01-11",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-d00848e6-a4d8-46ae-96bb-62ba12f23167-CN",
+     "ref": "d00848e6-a4d8-46ae-96bb-62ba12f23167-CN",
+     "title": "Call for Experts – EUSPA-CEI-03-26 - Call for expression of interest to establish a list of external remunerated experts.",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/d00848e6-a4d8-46ae-96bb-62ba12f23167-CN",
+     "opens": "2026-11-20",
+     "deadline": null,
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-EuropeAid/187757/DD/ACT/KH",
+     "ref": "EuropeAid/187757/DD/ACT/KH",
+     "title": "Support to Civil Society Organisations (CSOs) and Support to Human Rights and Democracy (HR&D)",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EuropeAid/187757/DD/ACT/KH",
+     "opens": "2026-10-22",
+     "deadline": "2026-12-11",
+     "kind": "EU call for proposals",
+     "programme": "111111"
+    },
+    {
+     "source": "EU",
+     "id": "eu-da2a3275-8f06-4bca-acd4-40dc8015c217-CN",
+     "ref": "da2a3275-8f06-4bca-acd4-40dc8015c217-CN",
+     "title": "Cleaning Services framework contract – EU Delegation to Kenya",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/da2a3275-8f06-4bca-acd4-40dc8015c217-CN",
+     "opens": "2026-11-20",
+     "deadline": "2026-12-21",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-2f53b6d0-e1f4-4bd5-98a6-615359970489-CN",
+     "ref": "2f53b6d0-e1f4-4bd5-98a6-615359970489-CN",
+     "title": "Big data analytics for skills intelligence",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/2f53b6d0-e1f4-4bd5-98a6-615359970489-CN",
+     "opens": "2026-11-20",
+     "deadline": "2027-01-19",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-1b6d2c99-781f-43b6-86d3-620e7fed8790-CN",
+     "ref": "1b6d2c99-781f-43b6-86d3-620e7fed8790-CN",
+     "title": "ENSOC Hosting Site PT ICT Infrastructure (Computing, Storage, Networking, Cybersecurity)",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/1b6d2c99-781f-43b6-86d3-620e7fed8790-CN",
+     "opens": "2026-11-20",
+     "deadline": "2026-12-21",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-4dedcd06-dcb0-4e3c-8686-edcc3ce96dd5-CN",
+     "ref": "4dedcd06-dcb0-4e3c-8686-edcc3ce96dd5-CN",
+     "title": "Supply of an inert glovebox chain for the JRC Karlsruhe",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/4dedcd06-dcb0-4e3c-8686-edcc3ce96dd5-CN",
+     "opens": "2026-11-20",
+     "deadline": "2026-12-04",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-EuropeAid/187639/DD/ACT/US",
+     "ref": "EuropeAid/187639/DD/ACT/US",
+     "title": "Transatlantic Perspectives: Strengthening the Partnership with Think Tanks in the US",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EuropeAid/187639/DD/ACT/US",
+     "opens": "2026-09-11",
+     "deadline": "2026-12-02",
+     "kind": "EU call for proposals",
+     "programme": "111111"
+    },
+    {
+     "source": "EU",
+     "id": "eu-76030a9f-3b4b-42b1-a8a2-aee0485120e9-CN",
+     "ref": "76030a9f-3b4b-42b1-a8a2-aee0485120e9-CN",
+     "title": "FRANET - F-SE-26-T01 Provision of services related to data collection and research services on fundamental rights issues",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/76030a9f-3b4b-42b1-a8a2-aee0485120e9-CN",
+     "opens": "2026-10-06",
+     "deadline": "2026-12-07",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-0510e205-3df6-42c1-8135-22db920053a1-CN",
+     "ref": "0510e205-3df6-42c1-8135-22db920053a1-CN",
+     "title": "Provision of travel services related to returns by scheduled flights supported by Frontex",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/0510e205-3df6-42c1-8135-22db920053a1-CN",
+     "opens": "2026-09-22",
+     "deadline": "2026-12-08",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-5b59bc2b-e253-41b6-8aa5-80ebec372a47-CN",
+     "ref": "5b59bc2b-e253-41b6-8aa5-80ebec372a47-CN",
+     "title": "Support service for the Coalition against Poverty",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/5b59bc2b-e253-41b6-8aa5-80ebec372a47-CN",
+     "opens": "2026-11-23",
+     "deadline": "2027-01-15",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-5263e8ff-2f4c-4004-9ca4-4c0feb2cdc89-CN",
+     "ref": "5263e8ff-2f4c-4004-9ca4-4c0feb2cdc89-CN",
+     "title": "Copernicus Land Monitoring Service - Operation of global bio-geophysical terrestrial variables",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/5263e8ff-2f4c-4004-9ca4-4c0feb2cdc89-CN",
+     "opens": "2026-11-17",
+     "deadline": "2026-12-21",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-4ddfcaff-17d7-4025-a4bf-1e7e1c668c49-CN",
+     "ref": "4ddfcaff-17d7-4025-a4bf-1e7e1c668c49-CN",
+     "title": "Purchase of Furniture for the EUDA",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/4ddfcaff-17d7-4025-a4bf-1e7e1c668c49-CN",
+     "opens": "2026-11-23",
+     "deadline": "2027-01-08",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-142be740-5a0a-4929-bebb-e4d27dfccdc1-CN",
+     "ref": "142be740-5a0a-4929-bebb-e4d27dfccdc1-CN",
+     "title": "Better Internet for Kids (BIK) Platform - EU Coordination",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/142be740-5a0a-4929-bebb-e4d27dfccdc1-CN",
+     "opens": "2026-11-20",
+     "deadline": "2027-01-13",
+     "kind": "EU tender",
+     "programme": "2014 - 2020"
+    },
+    {
+     "source": "EU",
+     "id": "eu-CREA-MEDIA-2027-FILMOVE",
+     "ref": "CREA-MEDIA-2027-FILMOVE",
+     "title": "Films on the Move",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CREA-MEDIA-2027-FILMOVE",
+     "opens": "2026-09-30",
+     "deadline": "2027-01-21",
+     "kind": "EU call for proposals",
+     "programme": "43251814"
+    },
+    {
+     "source": "EU",
+     "id": "eu-HORIZON-CL4-2027-01-MAT-PROD-02",
+     "ref": "HORIZON-CL4-2027-01-MAT-PROD-02",
+     "title": "Advanced manufacturing for key products (IA) (Made in Europe partnership)",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-01-MAT-PROD-02",
+     "opens": "2026-10-13",
+     "deadline": "2027-02-02",
+     "kind": "EU call for proposals",
+     "programme": "43108390"
+    },
+    {
+     "source": "EU",
+     "id": "eu-HORIZON-CL4-2027-01-MAT-PROD-22",
+     "ref": "HORIZON-CL4-2027-01-MAT-PROD-22",
+     "title": "Innovative advanced materials and new production processes – reducing dependencies on Critical and Strategic Raw Materials (IA) (Innovative Advanced Materials for the EU and Processes4Planet partnerships)",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-01-MAT-PROD-22",
+     "opens": "2026-10-13",
+     "deadline": "2027-02-02",
+     "kind": "EU call for proposals",
+     "programme": "43108390"
+    },
+    {
+     "source": "EU",
+     "id": "eu-HORIZON-CL5-2027-01-D1-13",
+     "ref": "HORIZON-CL5-2027-01-D1-13",
+     "title": "Next generation scenarios for informing climate and sustainability transitions",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-13",
+     "opens": "2026-11-17",
+     "deadline": "2027-03-04",
+     "kind": "EU call for proposals",
+     "programme": "43108390"
+    },
+    {
+     "source": "EU",
+     "id": "eu-HORIZON-CL5-2027-01-D1-12",
+     "ref": "HORIZON-CL5-2027-01-D1-12",
+     "title": "Better understanding and attribution of land and ocean carbon sources and sinks",
+     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-12",
+     "opens": "2026-11-17",
+     "deadline": "2027-03-04",
      "kind": "EU call for proposals",
      "programme": "43108390"
     },
@@ -13891,8 +13891,8 @@
   },
   "RI": {
    "ok": true,
-   "checked": "2026-11-25T01:22:06.966Z",
-   "updated": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
+   "updated": "2026-11-25T01:34:20.106Z",
    "count": 41,
    "items": [
     {
@@ -14350,8 +14350,8 @@
   },
   "eTenders": {
    "ok": true,
-   "checked": "2026-11-25T01:22:06.966Z",
-   "updated": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
+   "updated": "2026-11-25T01:34:20.106Z",
    "count": 300,
    "items": [
     {
@@ -17903,12 +17903,12 @@
  },
  "watch": {
   "cf-feas": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": false,
    "http": 405
   },
   "cf-poc": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "aa4ac17b9361",
@@ -17918,7 +17918,7 @@
    "dates": []
   },
   "cf-award": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "3fbc9a40e3ff",
@@ -17928,7 +17928,7 @@
    "dates": []
   },
   "ipp": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "b3a10c0b0a81",
@@ -17938,7 +17938,7 @@
    "dates": []
   },
   "voucher": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "de6304c222f8",
@@ -17948,7 +17948,7 @@
    "dates": []
   },
   "explore": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "bc4456f386fc",
@@ -17958,7 +17958,7 @@
    "dates": []
   },
   "agile": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "da3ee3af37b7",
@@ -17968,7 +17968,7 @@
    "dates": []
   },
   "rdi": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "0123fbf3b4e5",
@@ -17978,7 +17978,7 @@
    "dates": []
   },
   "dtif": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "64d0665d5f52",
@@ -17991,7 +17991,7 @@
    ]
   },
   "pssf": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "91f1ff2bd042",
@@ -18001,7 +18001,7 @@
    "dates": []
   },
   "hpsu": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "63790fd90faa",
@@ -18011,7 +18011,7 @@
    "dates": []
   },
   "gateways": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "e6a28d981f06",
@@ -18021,7 +18021,7 @@
    "dates": []
   },
   "techcentres": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "cd4698f87000",
@@ -18031,12 +18031,12 @@
    "dates": []
   },
   "eurostars": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": false,
    "http": 403
   },
   "ri-invest": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "4e768816f6e2",
@@ -18046,7 +18046,7 @@
    "dates": []
   },
   "ri-pathway": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "4e768816f6e2",
@@ -18056,7 +18056,7 @@
    "dates": []
   },
   "ri-ent-fellow": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "93d56ea8dbfd",
@@ -18066,7 +18066,7 @@
    "dates": []
   },
   "ri-eps-pg": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "d18b6fb4af08",
@@ -18081,7 +18081,7 @@
    ]
   },
   "ri-societal": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "4e768816f6e2",
@@ -18091,7 +18091,7 @@
    "dates": []
   },
   "ri-inspire": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "4e768816f6e2",
@@ -18101,7 +18101,7 @@
    "dates": []
   },
   "ri-spinout": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "4e768816f6e2",
@@ -18111,7 +18111,7 @@
    "dates": []
   },
   "ri-centres": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "a5c581401df6",
@@ -18121,7 +18121,7 @@
    "dates": []
   },
   "ri-usi": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "4e768816f6e2",
@@ -18131,7 +18131,7 @@
    "dates": []
   },
   "ri-spp": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "990a7c82f908",
@@ -18141,7 +18141,7 @@
    "dates": []
   },
   "epsrc-ri": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "6ae838e900f0",
@@ -18151,7 +18151,7 @@
    "dates": []
   },
   "ri-def": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "feb594b5f887",
@@ -18161,7 +18161,7 @@
    "dates": []
   },
   "arc-ict": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "9e376f4b36f4",
@@ -18171,7 +18171,7 @@
    "dates": []
   },
   "arc-health": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "7312480ab32c",
@@ -18181,7 +18181,7 @@
    "dates": []
   },
   "arc-ther": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "67eac1b55831",
@@ -18191,7 +18191,7 @@
    "dates": []
   },
   "ceadar": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "c430184a1f7d",
@@ -18201,7 +18201,7 @@
    "dates": []
   },
   "eurohpc": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "3aec737eec5f",
@@ -18213,12 +18213,12 @@
    ]
   },
   "seai-rdd": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": false,
    "http": 403
   },
   "seai-energise": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "b791010b888c",
@@ -18228,7 +18228,7 @@
    "dates": []
   },
   "cetp": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "e74cb506fa03",
@@ -18238,17 +18238,12 @@
    "dates": []
   },
   "gstp": {
-   "checked": "2026-11-25T01:22:06.966Z",
-   "ok": true,
-   "http": 200,
-   "hash": "bbe7cbb4a132",
-   "changed": null,
-   "since": "2026-11-24",
-   "words": null,
-   "dates": []
+   "checked": "2026-11-25T01:34:20.106Z",
+   "ok": false,
+   "http": 403
   },
   "tde": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "5f2e3712fb13",
@@ -18258,7 +18253,7 @@
    "dates": []
   },
   "philab": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "8af4fb23fe9c",
@@ -18268,12 +18263,12 @@
    "dates": []
   },
   "spark": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": false,
    "http": 403
   },
   "esa-bic": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "bc0dd7aeb1c8",
@@ -18283,7 +18278,7 @@
    "dates": []
   },
   "artes": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "a3e4c8846e36",
@@ -18293,17 +18288,17 @@
    "dates": []
   },
   "incubed": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
-   "hash": "8a825dc2dc8f",
+   "hash": "ffe462a3add8",
    "changed": "2026-11-25",
    "since": "2026-11-24",
    "words": "open",
    "dates": []
   },
   "edf-sme": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "7bb717f98e18",
@@ -18315,7 +18310,7 @@
    ]
   },
   "edip": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "8a2b9175adf5",
@@ -18325,7 +18320,7 @@
    "dates": []
   },
   "edf": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "f03a774fa054",
@@ -18335,7 +18330,7 @@
    "dates": []
   },
   "def-eq": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "414448fa6516",
@@ -18345,7 +18340,7 @@
    "dates": []
   },
   "eic-step-def": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "0d62a9adc843",
@@ -18357,7 +18352,7 @@
    ]
   },
   "ei-dsr": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "c32b0368f03a",
@@ -18367,27 +18362,36 @@
    "dates": []
   },
   "eic-path": {
-   "checked": "2026-11-25T01:22:06.966Z",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "checked": "2026-11-25T01:34:20.106Z",
+   "ok": true,
+   "http": 200,
+   "hash": "54458da9f051",
+   "changed": null,
+   "since": "2026-11-25",
+   "words": null,
+   "dates": [
+    "2027-02-25",
+    "2027-01-20",
+    "2027-01-28"
+   ]
   },
   "eic-trans": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": false,
    "http": 429
   },
   "eic-acc": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": false,
    "http": 403
   },
   "cl4": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": false,
    "http": 403
   },
   "mera": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "ab3309af9641",
@@ -18397,17 +18401,17 @@
    "dates": []
   },
   "msca-dn": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": false,
    "http": 404
   },
   "msca-pf": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": false,
    "http": 404
   },
   "msca-se": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "61f8b666c5b3",
@@ -18417,7 +18421,7 @@
    "dates": []
   },
   "leo-feas": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "f116e42e3406",
@@ -18427,7 +18431,7 @@
    "dates": []
   },
   "leo-prime": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "d6b138032f4a",
@@ -18437,7 +18441,7 @@
    "dates": []
   },
   "leo-exp": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "043b785c555e",
@@ -18447,7 +18451,7 @@
    "dates": []
   },
   "rdtc": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "5533b9f15664",
@@ -18457,7 +18461,7 @@
    "dates": []
   },
   "kdb": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "dbdd833b6196",
@@ -18467,7 +18471,7 @@
    "dates": []
   },
   "embark": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "c552edb0c7a2",
@@ -18477,7 +18481,7 @@
    "dates": []
   },
   "seedcorn": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "8ef680649b62",
@@ -18487,7 +18491,7 @@
    "dates": []
   },
   "fusion": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "b597a692fb30",
@@ -18497,7 +18501,7 @@
    "dates": []
   },
   "cost": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "d83765efd37e",
@@ -18507,7 +18511,7 @@
    "dates": []
   },
   "eureka-net": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "dfbd4d9e8db4",
@@ -18517,12 +18521,12 @@
    "dates": []
   },
   "eureka-smart": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": false,
    "http": 403
   },
   "cl5-aero": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "2c1f2d7c1b5d",
@@ -18532,17 +18536,12 @@
    "dates": []
   },
   "cl4-space": {
-   "checked": "2026-11-25T01:22:06.966Z",
-   "ok": true,
-   "http": 200,
-   "hash": "17ac21f39946",
-   "changed": null,
-   "since": "2026-11-24",
-   "words": null,
-   "dates": []
+   "checked": "2026-11-25T01:34:20.106Z",
+   "ok": false,
+   "error": "fetch failed"
   },
   "cleanh2": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "337d69995306",
@@ -18554,7 +18553,7 @@
    ]
   },
   "eit-rm": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "92f1c5d08116",
@@ -18564,7 +18563,7 @@
    "dates": []
   },
   "ramp": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "841722e3dd18",
@@ -18576,7 +18575,7 @@
    ]
   },
   "i3": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "1bcc06c2eed4",
@@ -18586,7 +18585,7 @@
    "dates": []
   },
   "interreg-nwe": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "05dae7a3f68e",
@@ -18596,7 +18595,7 @@
    "dates": []
   },
   "interreg-aa": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "a2da326e0656",
@@ -18606,7 +18605,7 @@
    "dates": []
   },
   "eudis-spinin": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "7911647f0fa2",
@@ -18616,27 +18615,55 @@
    "dates": []
   },
   "hrb": {
-   "checked": "2026-11-25T01:22:06.966Z",
-   "ok": false,
-   "http": 403
+   "checked": "2026-11-25T01:34:20.106Z",
+   "ok": true,
+   "http": 200,
+   "hash": "e59203bebc38",
+   "changed": null,
+   "since": "2026-11-25",
+   "words": "closed",
+   "dates": [
+    "2027-01-14",
+    "2027-01-21",
+    "2027-02-01"
+   ]
   },
   "cl1-health": {
-   "checked": "2026-11-25T01:22:06.966Z",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "checked": "2026-11-25T01:34:20.106Z",
+   "ok": true,
+   "http": 200,
+   "hash": "166cac40d824",
+   "changed": null,
+   "since": "2026-11-25",
+   "words": null,
+   "dates": [
+    "2026-04-16",
+    "2027-04-13",
+    "2027-09-22"
+   ]
   },
   "ihi": {
-   "checked": "2026-11-25T01:22:06.966Z",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "checked": "2026-11-25T01:34:20.106Z",
+   "ok": true,
+   "http": 200,
+   "hash": "d1cc1f090488",
+   "changed": null,
+   "since": "2026-11-25",
+   "words": null,
+   "dates": []
   },
   "eit-health": {
-   "checked": "2026-11-25T01:22:06.966Z",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "checked": "2026-11-25T01:34:20.106Z",
+   "ok": true,
+   "http": 200,
+   "hash": "4593a3b8500c",
+   "changed": null,
+   "since": "2026-11-25",
+   "words": null,
+   "dates": []
   },
   "bioinnovate": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "0687feafe431",
@@ -18646,7 +18673,7 @@
    "dates": []
   },
   "marine-inst": {
-   "checked": "2026-11-25T01:22:06.966Z",
+   "checked": "2026-11-25T01:34:20.106Z",
    "ok": true,
    "http": 200,
    "hash": "cd5a9d6e0a84",
