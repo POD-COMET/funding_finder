@@ -699,11 +699,12 @@ const tF={q:'',src:'all',status:'all',close:'any',field:'all',sort:null,n:40};
 function tenderPool(){const out=[],today=TODAY.toISOString().slice(0,10);
   for(const t of T){if(!tAllowed(t)||tLive(t)==='closed')continue;const l=tLive(t);
     out.push({key:'t:'+t.id,tid:t.id,src:t.sector==='infra'?'Irish':t.mil==='defence'?'Defence':t.org==='ESA'?'ESA':/^EU|EUDIS|EDA|Clean Aviation|F4E|EUSPA/i.test(t.org)?'EU':'Other',
-      title:t.title,org:t.org,ref:t.ref,published:t.opens||null,deadline:t.deadline,status:l==='intended'?'intended':l==='upcoming'?'forthcoming':l==='watch'?'watch':'open',text:(t.org+' '+t.programme+' '+t.title+' '+t.summary+' '+(t.kw||[]).join(' ')).toLowerCase(),tracked:true});}
+      title:t.title,org:t.org,ref:t.ref,published:t.opens||null,deadline:t.deadline,status:l==='intended'||l==='upcoming'?'forthcoming':l==='watch'?'watch':'open',text:(t.org+' '+t.programme+' '+t.title+' '+t.summary+' '+(t.kw||[]).join(' ')+(/ESA|EUMETSAT|EUSPA|ESO\b/.test(t.org)?' space satellite':'')).toLowerCase(),tracked:true});}
   if(LIVEDATA)for(const [k,src] of Object.entries(LIVEDATA.sources||{})){if(k==='RI')continue;
     for(const it of src.items||[]){if(it.deadline&&it.deadline<today)continue;if(EVENT_RE.test(it.title))continue;
       out.push({key:it.id,url:it.url,src:k==='eTenders'?'Irish':k,title:it.title,org:k==='ESA'?'ESA':k==='EU'?(it.programme||'EU'):(it.buyer||'Irish public body'),ref:it.ref,published:it.published||it.opens||null,deadline:it.deadline,
-        status:/intended/i.test(it.kind||'')?'intended':it.opens&&it.opens>today?'forthcoming':'open',text:(it.title+' '+(it.summary||'')).toLowerCase(),kind:it.kind});}}
+        status:/intended/i.test(it.kind||'')||it.status==='forthcoming'||(it.opens&&it.opens>today)?'forthcoming':'open',
+        text:(it.title+' '+(it.summary||'')+' '+(it.ref||'')+' '+(it.programme||'')+(k==='ESA'||/SPACE|EUSPA|CASSINI|GOVSATCOM|IRIS2/i.test((it.ref||'')+' '+(it.programme||''))?' space satellite esa':'')).toLowerCase(),kind:it.kind});}}
   return out;}
 function profTerms(){const p=prof();return [...new Set((p.expertise+' '+p.facilities+' '+p.notes).toLowerCase().split(/[^a-z0-9-]+/).filter(w=>w.length>4&&!STOP.has(w)).map(stem))];}
 function renderTenders(){const el=document.getElementById('v-tenders'),pool=tenderPool(),pt=profTerms(),pinds=profOn()?Matcher.detectInds(prof().expertise+' '+prof().notes,KW):[];
@@ -716,14 +717,14 @@ function renderTenders(){const el=document.getElementById('v-tenders'),pool=tend
   const by={new:(a,b)=>(b.published||'').localeCompare(a.published||''),close:(a,b)=>(a.deadline||'9').localeCompare(b.deadline||'9'),rel:(a,b)=>b.r-a.r||(b.published||'').localeCompare(a.published||'')}[tF.sort];L.sort(by);
   const cnt=k=>pool.filter(x=>x.src===k).length,SRC=[['all','All sources'],['ESA','ESA'],['EU','EU'],['Irish','Irish public bodies'],['Defence','Defence'],['Other','Other']].filter(([k])=>k==='all'||cnt(k));
   const opt=(v,l,c)=>`<option value="${v}" ${c===v?'selected':''}>${l}</option>`;
-  const row=x=>{const dl=x.deadline?`closes ${fmt(d(x.deadline))}`:x.status==='intended'?'announced, not yet open':x.status==='watch'?'recurring':'no closing date listed';
+  const row=x=>{const dl=x.deadline?`closes ${fmt(d(x.deadline))}`:x.status==='forthcoming'?'announced, not yet open':x.status==='watch'?'recurring':'no closing date listed';
     const wk=x.tid&&LIVEDATA&&LIVEDATA.watch&&LIVEDATA.watch['t:'+x.tid],chg=wk&&wk.ok&&wk.changed&&wk.changed!==wk.since&&(TODAY-d(wk.changed))/864e5<=14?'page updated '+fmt(d(wk.changed)):'';
     const meta=[x.src==='EU'&&x.org!=='EU'?x.org:x.org,x.ref,x.published?'published '+fmt(d(x.published)):'',dl,chg].filter(Boolean).map(esc).join(' · ');
     return `<${x.tid?`button class="trow" data-tid="${x.tid}"`:`a class="trow" href="${esc(x.url)}" target="_blank" rel="noopener"`}><span class="tsrc s-${x.src}">${esc(x.src)}</span><span class="tt">${esc(x.title)}${x.tid?'':' ↗'}</span><span class="tm">${meta}</span>${x.r>=fitMin&&fitMin?'<span class="tfit">Fits your profile</span>':''}</${x.tid?'button':'a'}>`;};
   el.innerHTML=`<h1>Tenders</h1><p class="sub">${pool.length} open or announced tenders and calls${LIVEDATA?`, read from ESA-STAR, the EU portal and Irish eTenders ${ago(LIVEDATA.generated)}`:' (tracked list; live portals load on the hosted site)'}.${pt.length?` Sorted to put those that fit <a href="#profile">${esc(prof().name||'your profile')}</a> first.`:` Add your expertise in your <a href="#profile">profile</a> to bring the most relevant ones to the top.`}</p>
   <div class="tfilters"><input id="tq" type="search" placeholder="Search tenders, e.g. radiator, coating, drone" value="${esc(tF.q)}">
     <select id="tsrc">${SRC.map(([k,l])=>opt(k,l+(k==='all'?'':` (${cnt(k)})`),tF.src)).join('')}</select>
-    <select id="tstat">${opt('all','Any status',tF.status)}${opt('open','Open now',tF.status)}${opt('intended','Announced',tF.status)}${opt('forthcoming','Opening soon',tF.status)}</select>
+    <select id="tstat">${opt('all','Any status',tF.status)}${opt('open','Open now',tF.status)}${opt('forthcoming','Announced / opening soon',tF.status)}</select>
     <select id="tfield">${opt('all','All fields',tF.field)}${Object.entries(IND).map(([k,v])=>opt(k,v,tF.field)).join('')}</select></div>
   <p class="meta" id="tcount">${L.length} shown</p>
   <div class="tlist">${L.slice(0,tF.n).map(row).join('')||'<p class="meta">Nothing matches these filters.</p>'}</div>

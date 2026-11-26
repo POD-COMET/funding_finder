@@ -111,12 +111,15 @@ async function euft() {
         url: isTender ? `https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/${id}`
                       : `https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/${id}`,
         opens: dateISO(g("startDate")), deadline: dateISO(g("deadlineDate")), kind: isTender ? "EU tender" : "EU call for proposals",
+        status: g("status") === "31094501" ? "forthcoming" : "open",
         programme: clean(g("frameworkProgramme") || g("programmePeriod") || "") });
     }
     if (res.length < 100) break;
   }
   const today = new Date().toISOString().slice(0, 10);
-  return items.filter(x => !x.deadline || x.deadline >= today);
+  const keep = items.filter(x => !x.deadline || x.deadline >= today);
+  console.log(`EU: ${keep.filter(x => x.status === "forthcoming").length} forthcoming, ${keep.filter(x => x.status === "open").length} open`);
+  return keep;
 }
 
 
