@@ -5,6 +5,16 @@ const URL0 = process.env.SITE_URL;
 const b = await chromium.launch(); const pg = await b.newPage(); const errs = [];
 pg.on("pageerror", e => errs.push(e.message));
 await pg.goto(URL0, { waitUntil: "networkidle" });
+// confirm the live page is the version just published
+{ const fs = await import("node:fs"); const crypto = await import("node:crypto");
+  const h = s => crypto.createHash("sha1").update(s).digest("hex").slice(0, 10);
+  for (const f of ["index.html", "data.js", "match.js"]) {
+    const live = await (await fetch(new URL(f, URL0.endsWith("/") ? URL0 : URL0 + "/"), { cache: "no-store" })).text();
+    const mine = fs.readFileSync(new URL("../site/" + f, import.meta.url), "utf8");
+    console.log(`${f}: live ${h(live)} · repo ${h(mine)} ${h(live) === h(mine) ? "✓ same" : "✗ DIFFERENT"}`);
+  }
+  console.log("Header:", await pg.$$eval(".links a.ico .lbl", a => a.map(x => x.innerText).join(" | ")));
+}
 const probes = ["fouling on ship hulls", "deployable radiator", "bone implant surface treatment", "drone airframe made of composites"];
 for (const q of probes) {
   await pg.fill("#idea", q); await pg.waitForTimeout(1500);
