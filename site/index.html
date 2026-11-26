@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name="color-scheme" content="light">
+<meta name="color-scheme" content="dark">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' x2='1' y1='1' y2='0'%3E%3Cstop offset='0' stop-color='%232557a7' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%232557a7'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M3 27 L22 10' stroke='url(%23g)' stroke-width='5' stroke-linecap='round'/%3E%3Ccircle cx='23' cy='9' r='6' fill='%232557a7'/%3E%3Ccircle cx='21.5' cy='7.5' r='2' fill='%23fff' opacity='.7'/%3E%3C/svg%3E">
@@ -163,6 +163,7 @@ aside .sum{color:var(--muted);font-size:.93rem;margin:0 0 20px}
 @keyframes ipop{from{opacity:0;transform:translate(-50%,-50%) scale(.85)}to{opacity:1;transform:translate(-50%,-50%) scale(1)}}
 .iarm .ir{font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--c);display:flex;align-items:center;gap:6px}
 .iarm .ir b{display:grid;place-items:center;width:19px;height:19px;box-shadow:0 0 0 3px color-mix(in srgb,var(--c) 18%,transparent);border-radius:50%;background:var(--c);color:#fff;font-size:.62rem;letter-spacing:0}
+.iarm.top{z-index:3}.iarm[data-gocat] .in{font-weight:500;font-size:.8rem;color:var(--muted)}.iarm[data-gocat] .im{color:var(--ink);font-weight:600}
 .iarm .in{font-weight:600;font-size:.86rem;line-height:1.3}.iarm .im{font-size:.74rem;color:var(--muted);line-height:1.3}
 .imap.mob .icentre{width:118px;height:118px;padding:10px;box-shadow:0 0 0 10px color-mix(in srgb,var(--accent) 6%,transparent),0 6px 18px rgba(37,87,167,.14)}.imap.mob .icentre .ict{font-size:.84rem}.imap.mob .icentre .ics{font-size:.66rem}
 .imap.mob .iarm{width:42%;padding:7px 8px 7px 9px;border-radius:11px;border-left-width:3px;gap:2px}.imap.mob .iarm .ir{font-size:.56rem;letter-spacing:.04em;gap:4px}.imap.mob .iarm .ir b{width:14px;height:14px;font-size:.55rem}.imap.mob .iarm .in{font-size:.7rem;line-height:1.25}
@@ -362,6 +363,8 @@ table.cmp{border-collapse:collapse;width:100%;min-width:640px;font-size:.88rem}
 @media (max-width:900px){.wide{width:auto;left:0;transform:none}.mind{grid-template-columns:minmax(0,1fr);gap:12px}.mroot{position:static;margin:0}.mbr{position:static;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}.mnode{flex-direction:column;align-items:flex-start;gap:3px;padding:9px 10px;font-size:.86rem}.mnode:hover{transform:none}.mleaf{min-width:0}.mleaves{border-top:1px solid var(--line);padding-top:12px;margin-top:4px}}
 @media (prefers-reduced-motion:reduce){.mleaf,.mlinks path.lf{animation:none;stroke-dashoffset:0}}
 [hidden]{display:none!important}
+:root{--bg:#121417;--ink:#eceef1;--muted:#9aa1ab;--faint:#6d7480;--line:#262a30;--hover:#1b1e23;--accent:#8fb4f0;
+  --open:#4cc77f;--roll:#8fb4f0;--up:#f0b45a;--closed:#6d7480;--check:#b79cf0;--def:#ef7f73;--panel:#181b20;--shadow:0 10px 40px rgba(0,0,0,.5)}
 </style>
 </head>
 <body>
@@ -609,9 +612,9 @@ function itMeta(x){if(x.t){return x.t.org+' · '+tStatus(x.t).replace(/<[^>]+>/g
 function itDot(x){if(x.t){const l=tLive(x.t);return l==='open'?(x.t.deadline?'open':'rolling'):l==='watch'?'check':'upcoming';}return live(x.s);}
 function renderMap(){
   const el=document.getElementById('homeMap');if(!el)return;
-  const ob=document.getElementById('ovBtn');if(ob){ob.hidden=st.text.trim().length<=2;ob.textContent=mapSt.overview?'← Back to routes for your idea':'See every funding type';}
+  const ob=document.getElementById('ovBtn');if(ob){ob.hidden=false;ob.textContent=mapSt.overview?(st.text.trim().length>2?'← Back to routes for your idea':'← Back'):'See every funding type';}
   if(st.view==='path')st.view='map';
-  if(st.text.trim().length>2&&!mapSt.overview){renderIdeaMap(el);return;}
+  if(!mapSt.overview){if(st.text.trim().length>2)renderIdeaMap(el);else renderWelcomeMap(el);return;}
   const has=st.text.trim().length>2;let hits=new Set(),thits=new Set(),R0=[];
   if(has){R0=rank().results;R0.slice(0,14).forEach(x=>hits.add(x.s.id));Matcher.matchTenders(T,st.text,{today:TODAY,mil:st.mil}).forEach(x=>thits.add(x.t.id));}
   const isHit=x=>x.t?thits.has(x.t.id):hits.has(x.s.id);
@@ -678,7 +681,7 @@ function renderMap(){
   el.querySelectorAll('[data-cat]').forEach(g=>{const f=()=>{mapSt.sel=g.dataset.cat;renderMap();const n=document.querySelector(`[data-cat="${g.dataset.cat}"]`);if(n)n.focus({preventScroll:true});if(mobile)el.querySelector('.focus-h').scrollIntoView({behavior:'smooth',block:'start'});};
     g.onclick=f;g.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();f();}};});
   el.querySelectorAll('.mn-leaf,.mn-dot').forEach(g=>g.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();g.dataset.tid?openTender(g.dataset.tid):open(g.dataset.id);}});}
-let rmq=0,lastMob=innerWidth<760;addEventListener('resize',()=>{const mb=innerWidth<760;if(mb!==lastMob){lastMob=mb;cancelAnimationFrame(rmq);rmq=requestAnimationFrame(()=>{mapSt.prev={};renderMap();});}});
+let rmq=0,lastMob=innerWidth<760,lastW=innerWidth;addEventListener('resize',()=>{const mb=innerWidth<760;if(mb!==lastMob||(!mb&&!mapSt.overview&&Math.abs(innerWidth-lastW)>40)){lastMob=mb;lastW=innerWidth;clearTimeout(rmq);rmq=setTimeout(()=>{mapSt.prev={};renderMap();},150);}});
 
 // --- guide
 
@@ -862,30 +865,59 @@ function organicArm(x0,y0,x1,y1,seed,w0,w1,amp=1){const dx=x1-x0,dy=y1-y0,L=Math
   const A=[],B=[],N=26;for(let i=0;i<=N;i++){const t=i/N,p=P(t),q=P(Math.min(1,t+.01)),p0=P(Math.max(0,t-.01)),tx=q.x-p0.x,ty=q.y-p0.y,tl=Math.hypot(tx,ty)||1,w=(w0+(w1-w0)*Math.pow(t,.7))/2+Math.sin(t*9+seed)*.25;
     A.push(`${(p.x-ty/tl*w).toFixed(1)},${(p.y+tx/tl*w).toFixed(1)}`);B.unshift(`${(p.x+ty/tl*w).toFixed(1)},${(p.y-tx/tl*w).toFixed(1)}`);}
   return `M${A[0]} L${A.slice(1).join(' ')} L${B.join(' ')} Z`;}
-function renderIdeaMap(el){const {arms,R}=ideaArms(),mobile=innerWidth<760,n=arms.length;if(mobile)arms.forEach(a=>a.mob=1);
-  const fi=Matcher.detectInds(st.text,KW).filter(i=>i!=='mat'||Matcher.detectInds(st.text,KW).length===1).slice(0,2).map(i=>IND[i].split(/,| &/)[0]);
-  const ctitle=fi.length?fi.join(' · '):'Your idea';
-  const W=mobile?400:1180,H=mobile?170+Math.ceil(arms.length/2)*112:580,cx=W/2,cy=mobile?70:H/2,rx=W*(mobile?.33:.39),ry=H*(mobile?.39:.38);
-  const rows=Math.ceil(n/2);
-  const pos=mobile?arms.map((a,i)=>{const r=Math.floor(i/2);return {x:i%2?W*.75:W*.25,y:200+r*112+(i%2?26:0)};})
-    :arms.map((a,i)=>{const ang=-Math.PI/2+i*2*Math.PI/n+(i%2?.06:-.04);return {x:cx+rx*Math.cos(ang),y:cy+ry*Math.sin(ang)};});
-  // each arm leaves the centre circle and lands exactly on the edge of its card, with a dot where it joins
-  const CRv=mobile?62:86,HW=116,HH=46;let lines='';
+function renderIdeaMap(el,opt){let arms,R,ctitle,csub;
+  if(opt){arms=opt.arms;ctitle=opt.ctitle;csub=opt.csub;}
+  else{({arms,R}=ideaArms());const fi=Matcher.detectInds(st.text,KW).filter(i=>i!=='mat'||Matcher.detectInds(st.text,KW).length===1).slice(0,2).map(i=>IND[i].split(/,| &/)[0]);
+    ctitle=fi.length?fi.join(' · '):'Your idea';csub=`${R.results.length} matching routes`;}
+  const mobile=innerWidth<760,n=arms.length;
+  const W=mobile?400:Math.max(700,el.clientWidth||1180),H0=mobile?170+Math.ceil(n/2)*112:Math.max(560,Math.round(W*.5)),cx=W/2;
+  const card=(a,i)=>{const name=a.cat?a.name:a.s?a.s.name:a.t?a.t.title:a.live.title;
+    const meta=a.cat?a.meta:a.s?`${short(a.s.amount)} · ${stTxt(a.s).replace(/<[^>]+>/g,'')}`:a.t?`${a.t.org} · ${tStatus(a.t).replace(/<[^>]+>/g,'')}`:`${a.live.source}${a.live.ref?' '+a.live.ref:''}${a.live.deadline?' · closes '+fmt(d(a.live.deadline)):''}`;
+    const attrs=a.cat?`data-gocat="${a.cat}"`:a.s?`data-id="${a.s.id}"`:a.t?`data-tid="${a.t.id}"`:`data-href="${esc(a.live.url)}"`;
+    const top=i<3&&a.s&&!a.cat;
+    return `<button class="mn-leaf iarm${top?' top':''}" ${attrs} style="--c:${a.color};--i:${i}" aria-label="${esc(a.role+': '+name)}"><span class="ir">${top?`<b>${i+1}</b>`:''}${esc(a.role)}</span><span class="in">${esc(trunc(name,mobile?34:70))}</span>${mobile?'':`<span class="im">${esc(meta)}</span>`}</button>`;};
+  el.innerHTML=`<div class="imap ${mobile?'mob':''}" style="height:${H0}px"><svg aria-hidden="true"></svg>
+      <div class="icentre" id="mnCentre"><span class="ict">${esc(ctitle)}</span><span class="ics">${esc(csub)}</span></div>
+      ${arms.map(card).join('')}</div>`;
+  const box=el.firstElementChild,svg=box.querySelector('svg'),cen=box.querySelector('.icentre'),B=[...box.querySelectorAll('.iarm')];
+  let pos,H=H0,cy;
+  if(mobile){cy=70;pos=arms.map((a,i)=>{const r=Math.floor(i/2);return {x:i%2?W*.75:W*.25,y:200+r*112+(i%2?26:0)};});}
+  else{
+    // lay the cards out at their real size: start on an ellipse, then push apart anything that overlaps
+    const sz=B.map(b=>({w:b.offsetWidth||226,h:b.offsetHeight||110}));
+    cy=H/2;const CR=96,gap=14,rx=W/2-sz[0].w/2-8,ry=H/2-60;
+    pos=arms.map((a,i)=>{const ang=-Math.PI/2+i*2*Math.PI/n+(i%2?.06:-.04);return {x:cx+rx*Math.cos(ang),y:cy+ry*Math.sin(ang)};});
+    for(let it=0;it<120;it++){let moved=false;
+      for(let i=0;i<n;i++){const p=pos[i],s=sz[i];
+        // keep clear of the centre circle
+        const ox=Math.max(0,CR+s.w/2-Math.abs(p.x-cx)),oy=Math.max(0,CR+s.h/2-Math.abs(p.y-cy));
+        if(ox>0&&oy>0){if(ox<oy)p.x+=Math.sign(p.x-cx||1)*ox;else p.y+=Math.sign(p.y-cy||1)*oy;moved=true;}
+        for(let j=i+1;j<n;j++){const q=pos[j],t=sz[j];
+          const dx=(s.w+t.w)/2+gap-Math.abs(p.x-q.x),dy=(s.h+t.h)/2+gap-Math.abs(p.y-q.y);
+          if(dx>0&&dy>0){moved=true;if(dy<=dx){const sh=dy/2+.5,sg=Math.sign(p.y-q.y||(i<j?-1:1));p.y+=sg*sh;q.y-=sg*sh;}else{const sh=dx/2+.5,sg=Math.sign(p.x-q.x||(i<j?-1:1));p.x+=sg*sh;q.x-=sg*sh;}}}
+        p.x=Math.min(W-s.w/2-4,Math.max(s.w/2+4,p.x));}
+      if(!moved)break;}
+    // grow the map if cards were pushed past the top or bottom
+    const top=Math.min(...pos.map((p,i)=>p.y-sz[i].h/2)),bot=Math.max(...pos.map((p,i)=>p.y+sz[i].h/2));
+    const sh=Math.max(0,8-top);pos.forEach(p=>p.y+=sh);cy+=sh;H=Math.max(H,Math.ceil(bot+sh+8));box.style.height=H+'px';
+    pos.sz=sz;}
+  svg.setAttribute('viewBox',`0 0 ${W} ${H}`);svg.setAttribute('preserveAspectRatio','none');
+  cen.style.left='50%';cen.style.top=(cy/H*100).toFixed(2)+'%';
+  B.forEach((b,i)=>{b.style.left=(pos[i].x/W*100).toFixed(2)+'%';b.style.top=(pos[i].y/H*100).toFixed(2)+'%';});
+  const CRv=mobile?62:86;let lines='';
   if(mobile){const lastY=pos[pos.length-1].y;
     lines+=`<path class="iln trunk" d="${organicArm(cx,cy+CRv*.95,cx,lastY,9,6,2.2,.035)}" style="fill:var(--accent);--i:0"/>`;
     pos.forEach((p,i)=>{const ex=i%2?W*.54:W*.46;lines+=`<path class="iln" d="${organicArm(cx,p.y,ex,p.y+(i%2?-4:4),i+3,3.4,2)}" style="fill:${arms[i].color};--i:${i+1}"/><circle class="idot" cx="${ex.toFixed(1)}" cy="${(p.y+(i%2?-4:4)).toFixed(1)}" r="3.4" style="fill:${arms[i].color};--i:${i}"/>`;});}
-  else lines=pos.map((p,i)=>{const dx=p.x-cx,dy=p.y-cy,L=Math.hypot(dx,dy)||1,ux=dx/L,uy=dy/L;
+  else lines=pos.map((p,i)=>{const HW=pos.sz[i].w/2,HH=pos.sz[i].h/2,dx=p.x-cx,dy=p.y-cy,L=Math.hypot(dx,dy)||1,ux=dx/L,uy=dy/L;
     const t=Math.min(Math.abs(dx)>1?HW/Math.abs(dx):1e9,Math.abs(dy)>1?HH/Math.abs(dy):1e9);const ex=p.x-dx*t,ey=p.y-dy*t,sx=cx+ux*CRv*.92,sy=cy+uy*CRv*.92;
     return `<path class="iln" d="${organicArm(sx,sy,ex,ey,i+1,7,2.4)}" style="fill:${arms[i].color};--i:${i}"/><circle class="idot" cx="${ex.toFixed(1)}" cy="${ey.toFixed(1)}" r="4" style="fill:${arms[i].color};--i:${i}"/>`;}).join('');
-  const card=(a,i)=>{const name=a.s?a.s.name:a.t?a.t.title:a.live.title;
-    const meta=a.s?`${short(a.s.amount)} · ${stTxt(a.s).replace(/<[^>]+>/g,'')}`:a.t?`${a.t.org} · ${tStatus(a.t).replace(/<[^>]+>/g,'')}`:`${a.live.source}${a.live.ref?' '+a.live.ref:''}${a.live.deadline?' · closes '+fmt(d(a.live.deadline)):''}`;
-    const attrs=a.s?`data-id="${a.s.id}"`:a.t?`data-tid="${a.t.id}"`:`data-href="${esc(a.live.url)}"`;
-    const at=`left:${(pos[i].x/W*100).toFixed(2)}%;top:${(pos[i].y/H*100).toFixed(2)}%;--c:${a.color};--i:${i}`;
-    return `<button class="mn-leaf iarm" ${attrs} style="${at}" aria-label="${esc(a.role+': '+name)}"><span class="ir">${i<3&&a.s?`<b>${i+1}</b>`:''}${esc(a.role)}</span><span class="in">${esc(trunc(name,mobile?34:70))}</span>${mobile?'':`<span class="im">${esc(meta)}</span>`}</button>`;};
-  el.innerHTML=`<div class="imap ${mobile?'mob':''}" style="height:${H}px"><svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" aria-hidden="true">${lines}</svg>
-      <div class="icentre" id="mnCentre" style="left:50%;top:${(cy/H*100).toFixed(2)}%"><span class="ict">${esc(ctitle)}</span><span class="ics">${R.results.length} matching routes</span></div>
-      ${arms.map(card).join('')}</div>`;
-  el.querySelectorAll('[data-href]').forEach(b=>b.onclick=e=>{e.stopPropagation();window.open(b.dataset.href,'_blank','noopener');});}
+  svg.innerHTML=lines;
+  el.querySelectorAll('[data-href]').forEach(b=>b.onclick=e=>{e.stopPropagation();window.open(b.dataset.href,'_blank','noopener');});
+  el.querySelectorAll('[data-gocat]').forEach(b=>b.onclick=e=>{e.stopPropagation();mapSt.sel=b.dataset.gocat;mapSt.overview=true;mapSt.prev={};renderMap();});}
+// before an idea is typed: the same map style, with one arm per type of funding
+function renderWelcomeMap(el){const C=mapCats(),nT=C.filter(c=>c.k==='tenders'||c.k==='infra').reduce((a,c)=>a+c.items.length,0);
+  const arms=C.slice(0,8).map(c=>({cat:c.k,color:c.color,role:c.label,name:c.desc||'',meta:`${c.items.length} ${c.items[0]&&c.items[0].t?'tender'+(c.items.length===1?'':'s'):'route'+(c.items.length===1?'':'s')}`}));
+  renderIdeaMap(el,{arms,ctitle:'Funding map',csub:`${S.filter(allowed).length} routes · ${nT} tenders`});}
 // --- meaning search: a small free model compares the idea with every route on this device.
 // Keyword results show instantly; meaning-based results refine them a moment later. Only on the
 // hosted site (needs vectors.json and the model download, ~25 MB once, then cached by the browser).
